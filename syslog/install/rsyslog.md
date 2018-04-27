@@ -1,4 +1,8 @@
+---
 title: Forwarding from rsyslog to Timber
+installation_instructions:
+  platform: syslog
+  subplatform: rsyslog
 ---
 The following are general instructions for integrating rsyslog v8+ with Timber.
 These instruction will cause _all_ syslog messages to be forwarded to Timber.

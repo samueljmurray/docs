@@ -1,3 +1,4 @@
+---
 title: Syslog
 ---
 Timber can act as a collector for syslog events forwarded from your syslog
