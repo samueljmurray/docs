@@ -1,0 +1,12 @@
+{
+	"name": "Timber Docs",
+	"root": "/",
+	"sources": [
+		{ "name": "Node", "url": "https://github.com/timberio/timber-node.git", "branch": "master", "root": "docs/" },
+		{ "name": "Elixir", "url": "https://github.com/timberio/timber-elixir.git", "branch": "master", "root": "docs/" },
+		{ "name": "Ruby", "url": "https://github.com/timberio/timber-elixir.git" }
+	],
+	"sidebar": [
+		{ "text": "Node", "link": "/node", "children": "Node" }
+	]
+}
