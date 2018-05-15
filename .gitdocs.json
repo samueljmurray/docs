@@ -1,10 +1,10 @@
 {
-	"name": "Timber Docs",
-	"sources": [
-		{
+  "name": "Timber Docs",
+  "sources": [
+    {
       "name": "node",
       "url": "https://github.com/timberio/timber-node.git",
       "branch": "docs/gitdocs"
     }
-	]
+  ]
 }
