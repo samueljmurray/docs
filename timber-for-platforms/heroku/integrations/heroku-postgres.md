@@ -15,3 +15,9 @@ Simply add Heroku postgres as an add-on to your app. If you're already using Her
 
 1. For a comprehensive overview, please refer to the [Heroku postgres metrics docs page](https://devcenter.heroku.com/articles/heroku-postgres-metrics-logs) and the [Heroku postgres log statements docs page](https://devcenter.heroku.com/articles/postgres-logs-errors).
 2. Timber will automatically recognize known Postgres events and classify them appropriately, helping to structure and organizae your logs as to maximize their utility.
+
+---
+
+### Related Docs
+
+* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)

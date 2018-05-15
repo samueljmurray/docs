@@ -14,3 +14,9 @@ Simply add Heroku redis as an add-on to your app. If you're already using Heroku
 
 1. For a comprehensive overview, please refer to the [Heroku redis metrics docs page](https://devcenter.heroku.com/articles/heroku-redis-metrics-logs) and the [Heroku redis log statements docs page](https://devcenter.heroku.com/articles/redis-logs-errors).
 2. Timber will automatically recognize known Heroku Redis events and classify them appropriately, helping to structure and organizae your logs as to maximize their utility.
+
+---
+
+### Related Docs
+
+* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)

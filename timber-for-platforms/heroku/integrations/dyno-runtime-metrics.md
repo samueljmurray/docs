@@ -54,3 +54,10 @@ Timber will recognize this event, parse it, and classify it as a [`resource_samp
   }
 }
 ```
+
+---
+
+### Related Docs
+
+* [**Configuration**](/docs/platforms/heroku/configuration)
+* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)

@@ -35,3 +35,10 @@ heroku labs:enable runtime-dyno-metadata -a <app name>
      }
    }
    ```
+
+---
+
+### Related Docs
+
+* [**Configuration**](/docs/platforms/heroku/configuration)
+* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)

@@ -31,3 +31,9 @@ Without a logging system these errors would unknowingly happen. Timber reocgnize
   }
 }
 ```
+
+---
+
+### Related Docs
+
+* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)

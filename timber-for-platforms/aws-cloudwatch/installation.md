@@ -38,3 +38,10 @@
    3. For `Lambda Function`, select the `cloudwatchLogsToTimber` function you just created. Click `next`.
    4. For `Log Format`, select `other` and leave the rest of the fields blank. Click `next`.
    5. Review the details and click `Start streaming`.
+
+---
+
+### Related docs
+
+1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
+2. [**Troubleshooting**](/docs/platforms/aws-cloudwatch-logs/troubleshooting)

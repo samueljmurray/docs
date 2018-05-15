@@ -19,3 +19,11 @@
    ```shell
    service logstash restart
    ```
+
+---
+
+### Related docs
+
+1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
+2. [**Timber for languages**](/docs/languages)
+3. [**Troubleshooting**](/docs/platforms/logstash/troubleshooting)

@@ -49,3 +49,9 @@ Timber will recognize this event and parse it into a [`http_response` event](/do
   }
 }
 ```
+
+---
+
+### Related Docs
+
+* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)

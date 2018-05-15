@@ -23,3 +23,11 @@ To enable, in your `shell` run this command:
 ```shell
 heroku labs:enable runtime-dyno-metadata -a <app name>
 ```
+
+---
+
+### Related Docs
+
+1. [**Dyno Metadata Integration**](/docs/platforms/heroku/integrations/dyno-metadata)
+2. [**Dyno Runtime Metrics Integration**](/docs/platforms/heroku/integrations/dyno-runtime-metrics)
+3. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
