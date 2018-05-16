@@ -1,9 +1,16 @@
 ---
-links:
+sidebar:
+  - timber-for-languages
+  - timber-for-platforms
+  - timber-app
+  - timber-service
+  - component: Divider
+  - timber-guides
+  - timber-concepts
   - title: API Documentation
-    url: https://api-docs.timber.io/
+    link: https://api-docs.timber.io/
   - title: Roadmap
-    url: https://github.com/timberio/feature-requests
+    link: https://github.com/timberio/feature-requests
 ---
 # Overview
 

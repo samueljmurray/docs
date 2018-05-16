@@ -1,5 +1,10 @@
 ---
-links:
+sidebar:
+  - installation
+  - usage
+  - configuration-file
+  - versioning
+  - component: Divider
   - title: Github Repo
     url: https://github.com/timberio/agent
   - title: Releases

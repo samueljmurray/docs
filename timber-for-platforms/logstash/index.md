@@ -1,5 +1,9 @@
 ---
-links:
+sidebar:
+  - installation
+  - configuration
+  - troubleshooting
+  - component: Divider
   - title: Logstash Output Plugin
     url: https://github.com/logstash-plugins/logstash-output-timber
 ---

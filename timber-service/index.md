@@ -1,6 +1,3 @@
----
-order: 4
----
 The section covers details about the Timber service as a whole, describing technical details, behaviour, and limitations:
 
 1. [**Billing**](billing)

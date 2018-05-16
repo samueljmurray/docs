@@ -1,5 +1,11 @@
 ---
-links:
+sidebar:
+  - installation
+  - usage
+  - configuration
+  - integrations
+  - troubleshooting
+  - component: Divider
   - title: Library Docs
     url: https://hexdocs.pm/timber/readme.html
   - title: Github Repo

@@ -1,5 +1,8 @@
 ---
 title: Log Event JSON Schema - event
+sidebar_append:
+  - component: Divider
+  - custom
 ---
 Events are structured representations of the log line itself. To explore the available events:
 

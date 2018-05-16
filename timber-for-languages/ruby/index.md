@@ -1,5 +1,11 @@
 ---
-links:
+sidebar:
+  - installation
+  - usage
+  - configuration
+  - integrations
+  - troubleshooting
+  - component: Divider
   - title: Library Documentation
     url: https://www.rubydoc.info/github/timberio/timber-ruby
   - title: Github Repo

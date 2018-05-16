@@ -1,6 +1,6 @@
 ---
-order: 3
-links:
+sidebar_append:
+  - component: Divider
   - title: Login
     url: https://app.timber.io
 ---

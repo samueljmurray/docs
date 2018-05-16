@@ -1,5 +1,8 @@
 ---
-order: 6
+sidebar_prepend:
+  - what-is-timber
+  - how-is-timber-different
+  - component: Divider
 ---
 The concepts section describes the various terms and conepts used within Timber and throughout these docs:
 

@@ -1,6 +1,3 @@
----
-order: 5
----
 The purpose of the guides section is to ensure you get the most out of the Timber logging platform. Sharing best practices and answering common questions.
 
 1. [**When to use custom events**](when-to-use-custom-events)
