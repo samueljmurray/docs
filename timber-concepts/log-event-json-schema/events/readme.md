@@ -17,5 +17,5 @@ Events are structured representations of the log line itself. To explore the ava
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
-2. [**Timber libraries**](/timber-for-languages)
+1. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
+2. [**Timber libraries**](/languages)

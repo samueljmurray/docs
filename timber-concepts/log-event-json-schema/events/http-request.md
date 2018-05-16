@@ -1,9 +1,9 @@
 ---
 title: Log Event JSON Schema - event.http_request
 ---
-*Note: Our [libraries](/timber-for-languages) integrate with frameworks and libraries to log this event automatically.*
+*Note: Our [libraries](/languages) integrate with frameworks and libraries to log this event automatically.*
 
-The `http_request` event is an event defined in our [log event JSON schema](/timber-concepts/log-event-json-schema). It's a structured representation of HTTP request events in your logs.
+The `http_request` event is an event defined in our [log event JSON schema](/concepts/log-event-json-schema). It's a structured representation of HTTP request events in your logs.
 
 ## Example JSON Structure
 
@@ -58,11 +58,11 @@ Example queries:
 * Search: `http_server_request.host:api.timber.io`
 * Only this event: `is:http_server_request`
 
-See our doc on [searching](/timber-app/console-log-viewer/searching).
+See our doc on [searching](/app/console-log-viewer/searching).
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
-2. [**Timber libraries**](/timber-for-languages)
+1. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
+2. [**Timber libraries**](/languages)

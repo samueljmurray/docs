@@ -8,7 +8,7 @@ If you are not using a formalized log format Timber makes a best effort to parse
 
 ## Prefixed token patterns
 
-Please see our [prefixed token patterns](/timber-service/log-formats-parsing/prefixed-token-patterns) document on the various formats and structures we support.
+Please see our [prefixed token patterns](/service/log-formats-parsing/prefixed-token-patterns) document on the various formats and structures we support.
 
 ## Examples
 

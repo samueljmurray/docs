@@ -4,7 +4,7 @@ sidebar_append:
   - title: Github Repo
     url: https://github.com/timberio/log-event-json-schema
 ---
-[The Timber log event JSON schema](https://github.com/timberio/log-event-json-schema) describes the structure of all Timber logs through the [JSON schema specification](http://json-schema.org/). It formalizes this process, creating a contract around the structure, allowing downstream consumers to predictably and efficiently consume this data. It solves the brittle traditional nature of logs. To get started, we recommend exploring the various contexts and events. If you are unaware what contexts and events are, please read out [metadata, context, and events document](/timber-concepts/metadata-context-and-events).
+[The Timber log event JSON schema](https://github.com/timberio/log-event-json-schema) describes the structure of all Timber logs through the [JSON schema specification](http://json-schema.org/). It formalizes this process, creating a contract around the structure, allowing downstream consumers to predictably and efficiently consume this data. It solves the brittle traditional nature of logs. To get started, we recommend exploring the various contexts and events. If you are unaware what contexts and events are, please read out [metadata, context, and events document](/concepts/metadata-context-and-events).
 
 ## Schema
 
@@ -41,5 +41,5 @@ sidebar_append:
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
-2. [**Timber libraries**](/timber-for-languages)
+1. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
+2. [**Timber libraries**](/languages)

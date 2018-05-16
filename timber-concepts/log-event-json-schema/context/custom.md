@@ -1,9 +1,9 @@
 ---
 title: Log JSON Schema - context.custom
 ---
-*Note: Our [libraries](/timber-for-languages) provide a simple API to set custom contexts.*
+*Note: Our [libraries](/languages) provide a simple API to set custom contexts.*
 
-The `custom` context allows you to extend beyond the context [already provided by Timber](/timber-concepts/log-event-json-schema/context) by providing your own custom contexts.
+The `custom` context allows you to extend beyond the context [already provided by Timber](/concepts/log-event-json-schema/context) by providing your own custom contexts.
 
 
 ## Example JSON Structure
@@ -26,14 +26,14 @@ Notice the `application` key. This is your context type. Each custom context mus
 
 ## Using this data
 
-1. [Search it](/timber-app/console-log-viewer/searching) with queries like: `application.id:1234` or `has:application.id`
-2. [Alert on it](/timber-app/console-log-viewer/alerts) with threshold based alerts
-3. [Graph & visualize it](/timber-app/console-log-viewer/graphing)
-4. [Access this data by viewing the log's metadata](/timber-app/console-log-viewer/view-metdata-and-context)
+1. [Search it](/app/console-log-viewer/searching) with queries like: `application.id:1234` or `has:application.id`
+2. [Alert on it](/app/console-log-viewer/alerts) with threshold based alerts
+3. [Graph & visualize it](/app/console-log-viewer/graphing)
+4. [Access this data by viewing the log's metadata](/app/console-log-viewer/view-metdata-and-context)
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
-2. [**Timber libraries**](/timber-for-languages)
+1. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
+2. [**Timber libraries**](/languages)

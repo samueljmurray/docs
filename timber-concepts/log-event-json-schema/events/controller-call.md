@@ -1,7 +1,7 @@
 ---
 title: Log Event JSON Schema - event.controller_call
 ---
-*Note: Our [libraries](/timber-for-languages) integrate with frameworks and libraries to log this event automatically.*
+*Note: Our [libraries](/languages) integrate with frameworks and libraries to log this event automatically.*
 
 The `controller_call` event represents an invocation of your controller within the HTTP
 request cycle. The order of events generally looks like:
@@ -54,11 +54,11 @@ Example queries:
 * Searching: `controller_call.controller:WelcomeController`
 * Only this event: `is:controller_call`
 
-See our doc on [searching](/timber-app/console-log-viewer/searching).
+See our doc on [searching](/app/console-log-viewer/searching).
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
-2. [**Timber libraries**](/timber-for-languages)
+1. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
+2. [**Timber libraries**](/languages)

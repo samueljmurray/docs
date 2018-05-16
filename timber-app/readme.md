@@ -1,4 +1,5 @@
 ---
+url: /app/
 sidebar_append:
   - component: Divider
   - title: Login

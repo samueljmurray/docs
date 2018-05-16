@@ -1,7 +1,7 @@
 ---
 sidebar:
-  - timber-for-languages
-  - timber-for-platforms
+  - timber-languages
+  - timber-platforms
   - timber-app
   - timber-service
   - component: Divider

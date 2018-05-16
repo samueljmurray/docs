@@ -1,7 +1,7 @@
 ---
 title: Inspect HTTP Requests
 ---
-*ⓘ This feature requires the use of [one of our libraries](/timber-for-languages).*
+*ⓘ This feature requires the use of [one of our libraries](/languages).*
 
 Inspecting HTTP requests is a powerful feature that allows you to view *all* attributes of the incoming request, including the parameters sent. This is valuable information to have during debugging. It helps you to reproduce issues enabling faster resolutio.
 

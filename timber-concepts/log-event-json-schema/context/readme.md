@@ -3,7 +3,7 @@ sidebar_append:
   - component: Divider
   - custom
 ---
-The [Timber log event JSON schema](https://github.com/timberio/log-event-json-schema) defines a [root level `context` key](https://github.com/timberio/log-event-json-schema/blob/master/schema.json#L41) the contains a JSON document. It represents the environment the log was written and is shared across your log lines. Think of it like log join data. It's incredibly powerful, allowing you related logs and perform tasks like [tailing users](/timber-app/console-log-viewer/tail-a-user) or [tracing HTTP requests](/timber-app/console-log-viewer/trace-http-requests). It's available sub-keys are:
+The [Timber log event JSON schema](https://github.com/timberio/log-event-json-schema) defines a [root level `context` key](https://github.com/timberio/log-event-json-schema/blob/master/schema.json#L41) the contains a JSON document. It represents the environment the log was written and is shared across your log lines. Think of it like log join data. It's incredibly powerful, allowing you related logs and perform tasks like [tailing users](/app/console-log-viewer/tail-a-user) or [tracing HTTP requests](/app/console-log-viewer/trace-http-requests). It's available sub-keys are:
 
 1. [**`context.custom`**](custom)
 2. [**`context.http`**](http)
@@ -37,5 +37,5 @@ The [Timber log event JSON schema](https://github.com/timberio/log-event-json-sc
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
-2. [**Timber libraries**](/timber-for-languages)
+1. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
+2. [**Timber libraries**](/languages)

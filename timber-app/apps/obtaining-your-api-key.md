@@ -24,4 +24,4 @@ With Timber, each application you setup has it's own unique API key. This allows
 
 ### Related docs
 
-1. [**Applications Concept**](/timber-concepts/applications)
+1. [**Applications Concept**](/concepts/applications)

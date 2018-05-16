@@ -5,4 +5,4 @@ Timber parses the [Heroku log format](https://devcenter.heroku.com/articles/log-
 119 <40>1 2012-11-30T06:45:26+00:00 host app web.3 - Starting process with command `bundle exec rackup config.ru -p 24405`
 ```
 
-Timber will map these fields to their appropriate [Timber log event JSON schema fields](https://timber.io/timber-concepts/log-event-json-schema). Speficially, the [`context.platform` fields](/timber-concepts/log-event-json-schema/context/platform-context) which have Heroku specific fields for the dyno type and ID.
+Timber will map these fields to their appropriate [Timber log event JSON schema fields](https://timber.io/concepts/log-event-json-schema). Speficially, the [`context.platform` fields](/concepts/log-event-json-schema/context/platform-context) which have Heroku specific fields for the dyno type and ID.

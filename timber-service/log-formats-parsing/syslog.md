@@ -4,4 +4,4 @@ Timber recognizes the formats outlines in the [Syslog 5424](https://www.ietf.org
 <34>1 2003-10-11T22:14:15.003Z mymachine.example.com su - ID47 - 'su root' failed for lonvick on /dev/pts/8
 ```
 
-Each field is mapped to the appropriate [Timber log event JSON schema field](https://timber.io/timber-concepts/log-event-json-schema).
+Each field is mapped to the appropriate [Timber log event JSON schema field](https://timber.io/concepts/log-event-json-schema).

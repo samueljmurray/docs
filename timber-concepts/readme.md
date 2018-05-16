@@ -1,4 +1,5 @@
 ---
+url: /concepts/
 sidebar_prepend:
   - what-is-timber
   - how-is-timber-different
