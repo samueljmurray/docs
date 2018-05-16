@@ -1,4 +1,4 @@
-*Execute* this shell script on the desired [Amazon Linux](https://aws.amazon.com/amazon-linux-ami/) server to install the [Timber Agent](/docs/platforms/other/agent)
+*Execute* this shell script on the desired [Amazon Linux](https://aws.amazon.com/amazon-linux-ami/) server to install the [Timber Agent](/timber-for-platforms/other/agent)
 
 ```sh
 curl -o /opt/timber-agent.tar.gz https://packages.timber.io/agent/0.6.x/linux-amd64/timber-agent-0.6.x-linux-amd64.tar.gz
@@ -15,12 +15,12 @@ service timber-agent start
 
 *Be sure to replace the `path` settings in `/etc/timber.toml` with your desired log paths.*
 
-<small>For a line-by-line explanation of what is happening, [read this doc](/docs/platforms/linux/installation/amazon-linux/line-by-line-explanation).</small>
+<small>For a line-by-line explanation of what is happening, [read this doc](/timber-for-platforms/linux/installation/amazon-linux/line-by-line-explanation).</small>
 
 ---
 
 ### Related docs
 
-1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
-2. [**Line-by-line shell script explanation**](/docs/platforms/linux/installation/amazon-linux/line-by-line-explanation)
-3. [**Troubleshooting**](/docs/platforms/linux/troubleshooting)
+1. [**Obtaining your API key**](/timber-app/applications/obtaining-api-key)
+2. [**Line-by-line shell script explanation**](/timber-for-platforms/linux/installation/amazon-linux/line-by-line-explanation)
+3. [**Troubleshooting**](/timber-for-platforms/linux/troubleshooting)

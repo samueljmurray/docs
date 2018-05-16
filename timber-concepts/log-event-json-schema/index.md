@@ -3,25 +3,25 @@ links:
   - title: Github Repo
     url: https://github.com/timberio/log-event-json-schema
 ---
-[The Timber log event JSON schema](https://github.com/timberio/log-event-json-schema) describes the structure of all Timber logs through the [JSON schema specification](http://json-schema.org/). It formalizes this process, creating a contract around the structure, allowing downstream consumers to predictably and efficiently consume this data. It solves the brittle traditional nature of logs. To get started, we recommend exploring the various contexts and events. If you are unaware what contexts and events are, please read out [metadata, context, and events document](/docs/concepts/metadata-context-and-events).
+[The Timber log event JSON schema](https://github.com/timberio/log-event-json-schema) describes the structure of all Timber logs through the [JSON schema specification](http://json-schema.org/). It formalizes this process, creating a contract around the structure, allowing downstream consumers to predictably and efficiently consume this data. It solves the brittle traditional nature of logs. To get started, we recommend exploring the various contexts and events. If you are unaware what contexts and events are, please read out [metadata, context, and events document](/timber-concepts/metadata-context-and-events).
 
 ## Schema
 
-* [**`context`** - join data for your logs](/docs/concepts/log-json-schema/contexts)
-  * [**`context.custom`**](/docs/concepts/log-json-schema/contexts/custom-context)
-  * [**`context.http`**](/docs/concepts/log-json-schema/contexts/http-context)
-  * [**`context.job`**](/docs/concepts/log-json-schema/contexts/job-context)
-  * [**`context.release`**](/docs/concepts/log-json-schema/contexts/release-context)
-  * [**`context.runtime`**](/docs/concepts/log-json-schema/contexts/runtime-context)
-  * [**`context.system`**](/docs/concepts/log-json-schema/contexts/system-context)
-  * [**`context.user`**](/docs/concepts/log-json-schema/contexts/user-context)
-* [**`event`** - structured data for the log event itself](/docs/concepts/log-json-schema/events)
-  * [**`event.controller_call`**](/docs/concepts/log-json-schema/events/controller-call-event)
-  * [**`event.custom`**](/docs/concepts/log-json-schema/events/custom-event)
-  * [**`event.error`**](/docs/concepts/log-json-schema/events/error-event)
-  * [**`event.http_request`**](/docs/concepts/log-json-schema/events/http-request-event)
-  * [**`event.http_response`**](/docs/concepts/log-json-schema/events/http-response-event)
-  * [**`event.sql_query`**](/docs/concepts/log-json-schema/events/sql-query-event)
+* [**`context`** - join data for your logs](context)
+  * [**`context.custom`**](context/custom)
+  * [**`context.http`**](context/http)
+  * [**`context.job`**](context/job)
+  * [**`context.release`**](context/release)
+  * [**`context.runtime`**](context/runtime)
+  * [**`context.system`**](context/system)
+  * [**`context.user`**](context/user)
+* [**`event`** - structured data for the log event itself](events)
+  * [**`event.controller_call`**](events/controller-call)
+  * [**`event.custom`**](events/custom)
+  * [**`event.error`**](events/error)
+  * [**`event.http_request`**](events/http-request)
+  * [**`event.http_response`**](events/http-response)
+  * [**`event.sql_query`**](events/sql-query)
 
 
 ## Example JSON structure
@@ -40,5 +40,5 @@ links:
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**Timber libraries**](/docs/languages)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**Timber libraries**](/timber-for-languages)

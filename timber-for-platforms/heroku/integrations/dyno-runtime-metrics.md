@@ -2,7 +2,7 @@ When you enable the [Heroku log runtime metrics feature](https://devcenter.herok
 
 |You'll Get|
 |:------|
-|<i>+</i>[Resource sample event](/docs/concepts/the-timber-log-event-schema/events/resource-sample-event)|
+|<i>+</i>[Resource sample event](/timber-concepts/the-timber-log-event-schema/events/resource-sample-event)|
 
 
 ## How to use it
@@ -22,7 +22,7 @@ By enabling this feature Heroku will begin to log CPU and memory sample events p
 source=web.1 dyno=heroku.2808254.d97d0ea7-cf3d-411b-b453-d2943a50b456 sample#memory_total=21.00MB sample#memory_rss=21.22MB sample#memory_cache=0.00MB sample#memory_swap=0.00MB sample#memory_pgpgin=348836pages sample#memory_pgpgout=343403pages
 ```
 
-Timber will recognize this event, parse it, and classify it as a [`resource_sample` event](/docs/concepts/the-timber-log-event-schema/events/resource-sample-event) with a `memory` sub-document.
+Timber will recognize this event, parse it, and classify it as a [`resource_sample` event](/timber-concepts/the-timber-log-event-schema/events/resource-sample-event) with a `memory` sub-document.
 
 ```json
 {
@@ -59,5 +59,5 @@ Timber will recognize this event, parse it, and classify it as a [`resource_samp
 
 ### Related Docs
 
-* [**Configuration**](/docs/platforms/heroku/configuration)
-* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
+* [**Configuration**](/timber-for-platforms/heroku/configuration)
+* [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)

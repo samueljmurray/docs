@@ -1,4 +1,4 @@
-Capturing `user context` is a powerful feature that allows you to associate logs with users in your application. This is great for support as you can [quickly narrow logs to a specific user](/docs/app/console/tail-a-user), making it easy to identify user reported issues.
+Capturing `user context` is a powerful feature that allows you to associate logs with users in your application. This is great for support as you can [quickly narrow logs to a specific user](/timber-app/console-log-viewer/tail-a-user), making it easy to identify user reported issues.
 
 
 ## How to use it
@@ -16,5 +16,5 @@ All of the `UserContext` attributes are optional, but at least one much be suppl
 
 ### Other Related docs
 
-1. [**Metadata, context, & events**](/docs/concepts/metadata-context-and-events)
-2. [**User context**](/docs/concepts/log-json-schema/contexts/user)
+1. [**Metadata, context, & events**](/timber-concepts/metadata-context-and-events)
+2. [**User context**](/timber-concepts/log-event-json-schema/context/user)

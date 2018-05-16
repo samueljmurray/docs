@@ -1,4 +1,4 @@
-We support all Linux-based systems through the [Timber Agent](/docs/platforms/other/agent) which collects logs from files on your server.
+We support all Linux-based systems through the [Timber Agent](/timber-for-platforms/other/agent) which collects logs from files on your server.
 
 For the majority of modern distributions, you can use the following shell script to install the agent on your machine. It assumes your system uses `systemd`. (Don't worry if you don't know what that means!)
 
@@ -20,12 +20,12 @@ systemctl start timber-agent
 
 The script assumes that you have `root` permissions, so please prefix commands with `sudo` if necessary. It also assumes your `$EDITOR` environment variable is set. If not, replace `$EDITOR` with the command name of your preferred text-editor. Alternatively, create a configuration file on your local computer and upload it to your server.
 
-<small>For a line-by-line explanation of what is happening, [read this doc](/docs/platforms/linux/installation/systemd-linux/line-by-line-explanation).</small>
+<small>For a line-by-line explanation of what is happening, [read this doc](/timber-for-platforms/linux/installation/systemd-linux/line-by-line-explanation).</small>
 
 ---
 
 ### Related docs
 
-1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
-2. [**Line-by-line shell script explanation**](/docs/platforms/linux/installation/systemd-linux/line-by-line-explanation)
-3. [**Troubleshooting**](/docs/platforms/linux/troubleshooting)
+1. [**Obtaining your API key**](/timber-app/applications/obtaining-api-key)
+2. [**Line-by-line shell script explanation**](/timber-for-platforms/linux/installation/systemd-linux/line-by-line-explanation)
+3. [**Troubleshooting**](/timber-for-platforms/linux/troubleshooting)

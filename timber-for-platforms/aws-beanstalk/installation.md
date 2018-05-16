@@ -10,7 +10,7 @@
    mkdir -p .ebextensions && curl -o .ebextensions/01_timber_install.config https://raw.githubusercontent.com/timberio/agent/master/support/scripts/platforms/aws_elastic_beanstalk/01_timber_install.config
    ```
 
-3. Open `.ebextensions/01_timber_install.config` and replace the `path` variables with the paths of the log files you'd like to send. [**Unsure which paths to use?**](/docs/platforms/aws-elastic-beanstalk/configuration/sending-multiple-log-files#common-log-file-paths)
+3. Open `.ebextensions/01_timber_install.config` and replace the `path` variables with the paths of the log files you'd like to send. [**Unsure which paths to use?**](/timber-for-platforms/aws-beanstalk/configuration/sending-multiple-log-files#common-log-file-paths)
 
 4. Package your source bundle as usual and upload it to AWS Elastic Beanstalk.
 
@@ -18,6 +18,5 @@
 
 ### Related docs
 
-1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
-2. [**Timber for languages**](/docs/languages)
-3. [**Troubleshooting**](/docs/platforms/aws-elastic-beanstalk/troubleshooting)
+1. [**Obtaining your API key**](/timber-app/applications/obtaining-api-key)
+2. [**Timber for languages**](/timber-for-languages)

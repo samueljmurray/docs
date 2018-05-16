@@ -3,16 +3,16 @@ title: Log Event JSON Schema - event
 ---
 Events are structured representations of the log line itself. To explore the available events:
 
-1. [**`event.controller_call`**](/docs/concepts/log-json-schema/events/controller-call-event)
-2. [**`event.custom`**](/docs/concepts/log-json-schema/events/custom-event)
-3. [**`event.error`**](/docs/concepts/log-json-schema/events/error-event)
-4. [**`event.http_request`**](/docs/concepts/log-json-schema/events/http-request-event)
-5. [**`event.http_response`**](/docs/concepts/log-json-schema/events/http-response-event)
-6. [**`event.sql_query`**](/docs/concepts/log-json-schema/events/sql-query-event)
+1. [**`event.controller_call`**](controller-call)
+2. [**`event.custom`**](custom)
+3. [**`event.error`**](error)
+4. [**`event.http_request`**](http-request)
+5. [**`event.http_response`**](http-response)
+6. [**`event.sql_query`**](sql-query)
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**Timber libraries**](/docs/languages)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**Timber libraries**](/timber-for-languages)

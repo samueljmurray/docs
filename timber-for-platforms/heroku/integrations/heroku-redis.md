@@ -2,7 +2,7 @@ If you're using [Heroku redis](https://www.heroku.com/redis), it will log variou
 
 |You'll Get|
 |:------|
-|<i>+</i>[CPU, cache, and memory resource sample event](/docs/concepts/the-timber-log-event-schema/events/resource-sample-event)|
+|<i>+</i>[CPU, cache, and memory resource sample event](/timber-concepts/the-timber-log-event-schema/events/resource-sample-event)|
 
 
 ## How to use it
@@ -19,4 +19,4 @@ Simply add Heroku redis as an add-on to your app. If you're already using Heroku
 
 ### Related Docs
 
-* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
+* [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)

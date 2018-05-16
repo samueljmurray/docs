@@ -1,7 +1,7 @@
 ---
 title: Log Event JSON Schema - event.error
 ---
-*Note: Our [libraries](/docs/languages) capture errors and exceptions and log this event automatically.*
+*Note: Our [libraries](/timber-for-languages) capture errors and exceptions and log this event automatically.*
 
 The `error` event formally tracks errors in your application. Instead of errors
 being a blob of text in your logs, Timber parses them and classifies it as a single event
@@ -109,11 +109,11 @@ Example queries:
 * Search: `error.name:RuntimeError`
 * Only this event: `is:exception`
 
-See our doc on [searching](/docs/app/console/searching).
+See our doc on [searching](/timber-app/console-log-viewer/searching).
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**Timber libraries**](/docs/languages)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**Timber libraries**](/timber-for-languages)

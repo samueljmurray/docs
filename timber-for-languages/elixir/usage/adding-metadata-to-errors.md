@@ -23,7 +23,7 @@ raise(
 
 ## How it works
 
-When Timber transforms your exception into an [error event](/docs/concepts/log-json-schema/events/error-event) it maps the exception's attributes to the `metadata_json` attribute. `metadata_json` is a single `string` field that repsents your error's data in JSON format. The reason we went with this approach is to avoid adding noise to your schema, which would create an excessive amount of fields and attributes for indexing, when really these are needed for inspection purposes. The resulting JSON document looks like:
+When Timber transforms your exception into an [error event](/timber-concepts/log-event-json-schema/events/error-event) it maps the exception's attributes to the `metadata_json` attribute. `metadata_json` is a single `string` field that repsents your error's data in JSON format. The reason we went with this approach is to avoid adding noise to your schema, which would create an excessive amount of fields and attributes for indexing, when really these are needed for inspection purposes. The resulting JSON document looks like:
 
 ```json
 {

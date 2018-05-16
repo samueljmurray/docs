@@ -14,7 +14,7 @@ Timber will support any [Syslog RFC 5424 level](https://en.wikipedia.org/wiki/Sy
 
 ## Prefixed token patterns
 
-Please see our [prefixed token patterns](/docs/concepts/log-formats-and-parsing/prefixed-token-patterns) document on the various formats and structures we support.
+Please see our [prefixed token patterns](/timber-service/log-formats-parsing/prefixed-token-patterns) document on the various formats and structures we support.
 
 ## Examples
 

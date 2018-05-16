@@ -7,7 +7,7 @@ Creating an alert within the Timber app is a straight-forward process:
 2. Click the `Add Alert` button in the top right.
 3. Complete the form with the following fields:
 
-   1. `Which logs should trigger this alert?` - Enter a [valid search query](/docs/app/console/searching).
+   1. `Which logs should trigger this alert?` - Enter a [valid search query](/timber-app/console-log-viewer/searching).
    2. `How many matches are required to trigger this alert?` - This is the threshold. The aggregate total of matches must surpass this value in order for the alert to change states.
    3. `In what time frame?` - This is your window, it controls the sensitivity. The larger the window, the less sensitive this alert will be.
 

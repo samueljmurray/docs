@@ -23,6 +23,6 @@
 
 ### Related docs
 
-1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
-2. [**Timber for languages**](/docs/langauges)
-3. [**Troubleshooting**](/docs/platforms/fluentd/troubleshooting)
+1. [**Obtaining your API key**](/timber-app/applications/obtaining-api-key)
+2. [**Timber for languages**](/timber-for-languages)
+3. [**Troubleshooting**](troubleshooting)

@@ -1,4 +1,4 @@
-Custom events are powerful additions to your log statements that increase their usability. This best practices guide walks you through how to create custom events that will boost your productivity with Timber. If you need a refresher on Timber's "event" concept, you can check out our ["Metadata, Context, and Events"](/docs/concepts/metadata-context-and-events#events) document.
+Custom events are powerful additions to your log statements that increase their usability. This best practices guide walks you through how to create custom events that will boost your productivity with Timber. If you need a refresher on Timber's "event" concept, you can check out our ["Metadata, Context, and Events"](/timber-concepts/metadata-context-and-events#events) document.
 
 If you think of your application, you probably have plenty of events that occur. At Timber, we think in terms of "business" and "operational" events. Business events directly relate to what your application means to users, and operational events relate to how the application delivers features.
 
@@ -43,7 +43,7 @@ In this case, we have a business event (`off_cycle_payroll_run_scheduled`) that 
   - payroll run's scheduled timestamp (`2017-12-20T10:00:00Z`)
   - off cycle reason (`"end of year bonuses"`)
 
-Additionally, there are at least two contexts we can add to this log statement. First, we can add a [user context](/docs/concepts/log-json-schema/contexts/user-context) which is part of Timber's standard context set. That will include Sakinah's user ID. Second, we can add a custom "payroll run" context. This will include the payroll run's ID. Duplicating this data serves a specific purpose when we query it later.
+Additionally, there are at least two contexts we can add to this log statement. First, we can add a [user context](/timber-concepts/log-event-json-schema/context/user-context) which is part of Timber's standard context set. That will include Sakinah's user ID. Second, we can add a custom "payroll run" context. This will include the payroll run's ID. Duplicating this data serves a specific purpose when we query it later.
 
 With the user context, we can browse all of Sakinah's activity in the HR system over time with the query `user.id:5412`.
 
@@ -55,5 +55,5 @@ Combining context with events results in extremely powerful querying capabilitie
 
 ## Related Documentation
 
-* [Creating Custom Events in Elixir](/docs/languages/elixir/usage/custom-events)
-* [Creating Custom Events in Ruby](/docs/languages/ruby/usage/custom-events)
+* [Creating Custom Events in Elixir](/timber-for-languages/elixir/usage/custom-events)
+* [Creating Custom Events in Ruby](/timber-for-languages/ruby/usage/custom-events)

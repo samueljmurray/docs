@@ -10,24 +10,24 @@ The [Timber for Elixir](https://github.com/timberio/timber-ruby) [Phoenix](http:
 
 |You'll Get|
 |:------|
-|<i>+</i>[`context.http`](/docs/concepts/log-json-schema/contexts/http-context)|
-|<i>+</i>[`context.session`](/docs/concepts/log-json-schema/contexts/http-context)|
-|<i>+</i>[`event.http_request`](/docs/concepts/log-json-schema/events/http-request-event)|
-|<i>+</i>[`event.http_response`](/docs/concepts/log-json-schema/events/http-response-event)|
+|<i>+</i>[`context.http`](/timber-concepts/log-event-json-schema/context/http-context)|
+|<i>+</i>[`context.session`](/timber-concepts/log-event-json-schema/context/http-context)|
+|<i>+</i>[`event.http_request`](/timber-concepts/log-event-json-schema/events/http-request-event)|
+|<i>+</i>[`event.http_response`](/timber-concepts/log-event-json-schema/events/http-response-event)|
 
 
 ## What you can do
 
-1. [Trace HTTP requests](/docs/app/console/trace-http-requests)
-2. [Inspect HTTP requests & their parameters](/docs/app/console/inspect-http-requests)
-3. [Inspect Plug logs and view their associated metadata](/docs/app/console/view-metadata-and-context)
-4. [Search on Plug structured data](/docs/app/console/searching)
-5. [Alert on Plug structured data](/docs/app/alerts)
+1. [Trace HTTP requests](/timber-app/console-log-viewer/trace-http-requests)
+2. [Inspect HTTP requests & their parameters](/timber-app/console-log-viewer/inspect-http-requests)
+3. [Inspect Plug logs and view their associated metadata](/timber-app/console-log-viewer/view-metadata-and-context)
+4. [Search on Plug structured data](/timber-app/console-log-viewer/searching)
+5. [Alert on Plug structured data](/timber-app/alerts)
 
 
 ## Installation
 
-*⚠ It is highly recommend to use the [installer](/docs/languages/elixir/installation), it will install this integration automatically.*
+*⚠ It is highly recommend to use the [installer](/timber-for-languages/elixir/installation), it will install this integration automatically.*
 
 1. In your `endpoint.ex` file insert the Timber plugs:
 
@@ -57,6 +57,6 @@ Disabling the `Plug` integration is as simple as skipping or reversing the above
 
 ### Other Related docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**The Timber Log Schema**](/docs/concepts/log-json-schema)
-3. [**Structuring through augmentation**](/docs/concepts/structuring-through-augmentation)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**The Timber Log Schema**](/timber-concepts/log-event-json-schema)
+3. [**Structuring through augmentation**](/timber-concepts/structuring-through-augmentation)

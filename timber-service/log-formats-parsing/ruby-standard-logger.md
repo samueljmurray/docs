@@ -10,4 +10,4 @@ Which, in practice, looks like:
 I, [1999-03-03T02:34:24.895701 #19074]  INFO -- Main: info.
 ```
 
-These fields are mapped to their appropriate [Timber log event JSON schema fields](/docs/concepts/log-json-schema).
+These fields are mapped to their appropriate [Timber log event JSON schema fields](/timber-concepts/log-event-json-schema).

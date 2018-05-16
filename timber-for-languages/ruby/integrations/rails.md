@@ -1,4 +1,4 @@
-The [Timber for Ruby](https://github.com/timberio/timber-ruby) [Rails](http://rubyonrails.org/) integration [enhances and augments](/docs/concepts/structuring-through-augmentation) your Rails logs automatically.
+The [Timber for Ruby](https://github.com/timberio/timber-ruby) [Rails](http://rubyonrails.org/) integration [enhances and augments](/timber-concepts/structuring-through-augmentation) your Rails logs automatically.
 
 1. [**Structured data**](#structured-data)
 2. [**What you can do**](#what-you-can-do)
@@ -9,20 +9,20 @@ The [Timber for Ruby](https://github.com/timberio/timber-ruby) [Rails](http://ru
 
 |You'll Get|
 |:------|
-|<i>+</i>[`event.controller_call`](/docs/concepts/log-json-schema/events/controller-call-event)|
-|<i>+</i>[`event.http_request`](/docs/concepts/log-json-schema/events/http-request-event)|
-|<i>+</i>[`event.http_response`](/docs/concepts/log-json-schema/events/http-response-event)|
-|<i>+</i>[`event.template_render`](/docs/concepts/log-json-schema/events/template-render-event)|
+|<i>+</i>[`event.controller_call`](/timber-concepts/log-event-json-schema/events/controller-call-event)|
+|<i>+</i>[`event.http_request`](/timber-concepts/log-event-json-schema/events/http-request-event)|
+|<i>+</i>[`event.http_response`](/timber-concepts/log-event-json-schema/events/http-response-event)|
+|<i>+</i>[`event.template_render`](/timber-concepts/log-event-json-schema/events/template-render-event)|
 
 ## What you can do
 
-1. [Trace HTTP requests](/docs/app/console/trace-http-requests)
-2. [Inspect HTTP requests & their parameters](/docs/app/console/inspect-http-requests)
-3. [Tail a user](/docs/app/console/tail-a-user)
-4. [Inspect Rails logs and view their associated metadata](/docs/app/console/view-metadata-and-context)
-5. [Search on Rails structured data](/docs/app/console/searching)
-6. [Alert on Rails structured data](/docs/app/alerts)
-7. [Graph & visualize Rails structured data](/docs/app/graphs)
+1. [Trace HTTP requests](/timber-app/console-log-viewer/trace-http-requests)
+2. [Inspect HTTP requests & their parameters](/timber-app/console-log-viewer/inspect-http-requests)
+3. [Tail a user](/timber-app/console-log-viewer/tail-a-user)
+4. [Inspect Rails logs and view their associated metadata](/timber-app/console-log-viewer/view-metadata-and-context)
+5. [Search on Rails structured data](/timber-app/console-log-viewer/searching)
+6. [Alert on Rails structured data](/timber-app/alerts)
+7. [Graph & visualize Rails structured data](/timber-app/graphs)
 
 ## Installation
 
@@ -45,7 +45,7 @@ Timber.config.integrations.action_view.silence = true
 
 ### Disable structured data
 
-If you aren't familiar with how Timber structures data, please read the [structuring through augmentation document](/docs/concepts/structuring-through-augmentation). This structuring can be disabled, reverting each integrations logs to it's original unstructured, pre-Timber format:
+If you aren't familiar with how Timber structures data, please read the [structuring through augmentation document](/timber-concepts/structuring-through-augmentation). This structuring can be disabled, reverting each integrations logs to it's original unstructured, pre-Timber format:
 
 ```ruby
 # config/initializers/timber.rb
@@ -58,6 +58,6 @@ Timber.config.integrations.action_view.disable = true
 
 ### Other Related docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**The Timber Log JSON Schema**](/docs/concepts/log-json-schema)
-3. [**Structuring through augmentation**](/docs/concepts/structuring-through-augmentation)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**The Timber Log JSON Schema**](/timber-concepts/log-event-json-schema)
+3. [**Structuring through augmentation**](/timber-concepts/structuring-through-augmentation)

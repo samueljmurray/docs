@@ -1,7 +1,7 @@
 ---
 title: Parsing & Special Fields
 ---
-The Timber logstash output plugin intelligently transforms Logstash events to conform to the [Timber JSON schema](/docs/concepts/log-json-schema). If you aren't familiar with our JSON schema and it's purpose, please read the [log JSON schema document](/concepts/log-json-schema). During this process Timber will look for certain fields to transform the event properly.
+The Timber logstash output plugin intelligently transforms Logstash events to conform to the [Timber JSON schema](/timber-concepts/log-event-json-schema). If you aren't familiar with our JSON schema and it's purpose, please read the [log JSON schema document](/concepts/log-event-json-schema). During this process Timber will look for certain fields to transform the event properly.
 
 ## How it works
 
@@ -16,7 +16,7 @@ To start, let's look at a default Logstash event structure:
 }
 ```
 
-Instead of blindly forwarding this to the Timber service, Timber transforms this event to conform to our [log JSON schema](/concepts/log-json-schema):
+Instead of blindly forwarding this to the Timber service, Timber transforms this event to conform to our [log JSON schema](/concepts/log-event-json-schema):
 
 ```json
 {
@@ -34,7 +34,7 @@ Instead of blindly forwarding this to the Timber service, Timber transforms this
 }
 ```
 
-Notice how Timber maps certain Logstash fields to our own [log JSON schema](/concepts/log-json-schema). In the next section we'll list these special fields and how you can take advantage of them.
+Notice how Timber maps certain Logstash fields to our own [log JSON schema](/concepts/log-event-json-schema). In the next section we'll list these special fields and how you can take advantage of them.
 
 
 ## Special Logstash fields
@@ -43,13 +43,13 @@ If your Logstash event contains any of the following fields, Timber will map the
 
 * `@timestamp` - Treated as the official log timestamp.
 * `message` - Treated as the official log message.
-* `host` - Set as `hostname` in the Timber [`system` context](/docs/concepts/log-json-schema/contexts/system-context).
+* `host` - Set as `hostname` in the Timber [`system` context](/timber-concepts/log-event-json-schema/context/system-context).
 * `timber` - Additional Timber fields. This _must_ be a map and it _must_ conform to the [Timber JSON schema](https://github.com/timberio/log-event-json-schema).
 
 
 ## Using our libraries to capture additional fields
 
-By using our [libraries](/docs/languages) you can automatically enhance and augment your logs with application level context and metadata. This is captured within your application and included in your log messages. There is nothing additional you need to do with Logstash. If you install the Timber library it will work as expected.
+By using our [libraries](/timber-for-languages) you can automatically enhance and augment your logs with application level context and metadata. This is captured within your application and included in your log messages. There is nothing additional you need to do with Logstash. If you install the Timber library it will work as expected.
 
 ## Setting Timber schema fields within Logstash
 

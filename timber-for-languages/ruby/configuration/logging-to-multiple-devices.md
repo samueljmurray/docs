@@ -30,6 +30,6 @@ Just like the file example above, you could optionally wrap `STDOUT` in a `Logge
 
 ## Consider the Timber agent
 
-For the type-A minded, consider using the [Timber agent](/docs/platforms/other/agent) to forward logs from your server/platform. Since you require an actual log file you can setup the Timber agent to tail that file and forward logs. This would alleviate your application from having to ship logs.
+For the type-A minded, consider using the [Timber agent](/timber-for-platforms/other/agent) to forward logs from your server/platform. Since you require an actual log file you can setup the Timber agent to tail that file and forward logs. This would alleviate your application from having to ship logs.
 
-Please note, this is _not_ necessary, and it does not result in any application performance improvements! The Timber HTTP log device is designed to be *highly* efficient using threads, batching, and msgpack. For more information on how to choose a log delivery method, see our [HTTP, STDOUT, or Files doc](/docs/guides/http-stdout-or-log-files).
+Please note, this is _not_ necessary, and it does not result in any application performance improvements! The Timber HTTP log device is designed to be *highly* efficient using threads, batching, and msgpack. For more information on how to choose a log delivery method, see our [HTTP, STDOUT, or Files doc](/timber-guides/http-stdout-or-log-files).

@@ -1,14 +1,15 @@
 ---
+order: 3
 links:
   - title: Login
     url: https://app.timber.io
 ---
-The Timber application is a beautiful modern utility for viewing, [searching](/docs/app/console/searching), [inspecting](/docs/app/console/view-metdata-and-context), [alerting](/docs/app/alerts), and using your logs in a variety of ways.
+The Timber application is a beautiful modern utility for viewing, [searching](console-log-viewer/searching), [inspecting](console-log-viewer/view-metdata-and-context), [alerting](alerts), and using your logs in a variety of ways.
 
-1. [**Console / Log Viewer** - Search, tail, and view your logs](/docs/app/console)
-2. [**Alerts** - Threshold based monitoring with email & slack integration](/docs/app/alerts)
-4. [**Apps** - Manage your applications, log sources, & API keys](/docs/app/applications)
-5. [**Settings** - Administrative functions](/docs/app/settings)
+1. [**Console / Log Viewer** - Search, tail, and view your logs](console-log-viewer)
+2. [**Alerts** - Threshold based monitoring with email & slack integration](alerts)
+4. [**Apps** - Manage your applications, log sources, & API keys](apps)
+5. [**Settings** - Administrative functions](settings)
 
 
 ## Demo

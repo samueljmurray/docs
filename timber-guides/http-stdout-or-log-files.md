@@ -10,7 +10,7 @@ Configuring logging within your application and deciding on a log destinations c
 
 ## HTTP (simplest)
 
-Through the use of Timber's [libraries](/docs/languages) you can ship logs directly from your application to the Timber service. This is the simplest of methods as it only requires setup within your app, the library will handle the rest. The downside is decreased durability. If network communication fails, logs are held in memory in a buffer. If the server restarts, or that buffer overflows, logs will be dropped.
+Through the use of Timber's [libraries](/timber-for-languages) you can ship logs directly from your application to the Timber service. This is the simplest of methods as it only requires setup within your app, the library will handle the rest. The downside is decreased durability. If network communication fails, logs are held in memory in a buffer. If the server restarts, or that buffer overflows, logs will be dropped.
 
 
 ## STDOUT

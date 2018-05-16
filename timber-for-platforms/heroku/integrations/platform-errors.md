@@ -2,7 +2,7 @@ Heroku logs various [platform errors](https://devcenter.heroku.com/articles/erro
 
 |You'll Get|
 |:------|
-|<i>+</i>[Error event](/docs/concepts/log-event-json-schema/events/error-event)|
+|<i>+</i>[Error event](/timber-concepts/log-event-json-schema/events/error-event)|
 
 
 ## How to use it
@@ -36,4 +36,4 @@ Without a logging system these errors would unknowingly happen. Timber reocgnize
 
 ### Related Docs
 
-* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
+* [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)

@@ -12,4 +12,4 @@ Error logs:
 [Fri Sep 09 10:42:29.902022 2011] [core:error] [pid 35708:tid 4328636416] [client 72.15.99.187] File does not exist: /usr/local/apache2/htdocs/favicon.ico
 ```
 
-These fields will be mapped to their appropriate [Timber log event JSON schema](/docs/concepts/log-json-schema) fields.
+These fields will be mapped to their appropriate [Timber log event JSON schema](/timber-concepts/log-event-json-schema) fields.

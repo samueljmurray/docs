@@ -17,12 +17,12 @@ Logger.info("Task execution started")
 Logger.info("Task execution completed")
 ```
 
-In the console you can [search this context](/docs/app/console/searching) with a query like `job.id:abcd1234`.
+In the console you can [search this context](/timber-app/console-log-viewer/searching) with a query like `job.id:abcd1234`.
 
 
 ## How it works
 
-This strategy leverages [context](/docs/concepts/metadata-context-and-events). Every log line written contains the `job` context. When your logs are received by the Timber service, they'll have the context included. The resulting JSON document for an example log will look like:
+This strategy leverages [context](/timber-concepts/metadata-context-and-events). Every log line written contains the `job` context. When your logs are received by the Timber service, they'll have the context included. The resulting JSON document for an example log will look like:
 
 ```json
 {

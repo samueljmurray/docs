@@ -1,7 +1,7 @@
 ---
 title: Log Event JSON Schema - event.sql_query
 ---
-*Note: Our [libraries](/docs/languages) integrate with frameworks and libraries to log this event automatically.*
+*Note: Our [libraries](/timber-for-languages) integrate with frameworks and libraries to log this event automatically.*
 
 The `sql_query` event resresents a SQL query being issued from within your application.
 
@@ -42,11 +42,11 @@ Example queries:
 * Search: `sql_query.time_ms:>50`
 * Only this event: `is:sql_query`
 
-See our doc on [searching](/docs/app/console/searching).
+See our doc on [searching](/timber-app/console-log-viewer/searching).
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**Timber libraries**](/docs/languages)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**Timber libraries**](/timber-for-languages)

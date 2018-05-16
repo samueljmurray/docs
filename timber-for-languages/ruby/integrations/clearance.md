@@ -9,15 +9,15 @@ The [Timber for Ruby](https://github.com/timberio/timber-ruby) [Clearance](https
 
 |You'll Get|
 |:------|
-|<i>+</i>[`context.user`](/docs/concepts/log-json-schema/contexts/user-context)|
+|<i>+</i>[`context.user`](/timber-concepts/log-event-json-schema/context/user-context)|
 
 ## What you can do
 
-1. [Tail a user](/docs/app/console/tail-a-user)
+1. [Tail a user](/timber-app/console-log-viewer/tail-a-user)
 
 ## Installation
 
-If you're on Rails this is installed automatically. There is nothing you need to do. For everything else, please follow the [Rack installation instructions](/docs/languages/ruby/integrations/rack). User context is captured through a simple middleware.
+If you're on Rails this is installed automatically. There is nothing you need to do. For everything else, please follow the [Rack installation instructions](/timber-for-languages/ruby/integrations/rack). User context is captured through a simple middleware.
 
 ## Disable
 
@@ -32,6 +32,6 @@ Timber.config.integrations.rack.user_context.disable = true
 
 ### Other Related docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**The Timber Log JSON Schema**](/docs/concepts/log-json-schema)
-3. [**Structuring through augmentation**](/docs/concepts/structuring-through-augmentation)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**The Timber Log JSON Schema**](/timber-concepts/log-event-json-schema)
+3. [**Structuring through augmentation**](/timber-concepts/structuring-through-augmentation)

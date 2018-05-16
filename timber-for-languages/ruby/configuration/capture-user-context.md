@@ -1,4 +1,4 @@
-By default Timber automatically captures [user context](/docs/concepts/log-json-schema/contexts/user-context) for most of the popular authentication libraries (Warden, Devise and Clearance). See [Timber::Integrations::Rack::UserContext](http://www.rubydoc.info/github/timberio/timber-ruby/Timber/Integrations/Rack/UserContext) for a complete list.
+By default Timber automatically captures [user context](/timber-concepts/log-event-json-schema/context/user-context) for most of the popular authentication libraries (Warden, Devise and Clearance). See [Timber::Integrations::Rack::UserContext](http://www.rubydoc.info/github/timberio/timber-ruby/Timber/Integrations/Rack/UserContext) for a complete list.
 
 In cases where Timber doesn't support your strategy, or you want to customize it further, you can do so by following the instructions below.
 

@@ -2,10 +2,10 @@
 
 ### Frameworks & Libraries
 
-1. [**Phoenix**](/docs/languages/elixir/integrations/phoenix)
-2. [**Ecto**](/docs/languages/elixir/integrations/ecto)
-3. [**Plug**](/docs/languages/elixir/integrations/plug)
+1. [**Phoenix**](phoenix)
+2. [**Ecto**](ecto)
+3. [**Plug**](plug)
 
 ### Platforms
 
-1. [**System / Server**](/docs/languages/elixir/integrations/system)
+1. [**System / Server**](system-server)

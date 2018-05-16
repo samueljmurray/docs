@@ -43,5 +43,5 @@
 
 ### Related docs
 
-1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
-2. [**Troubleshooting**](/docs/platforms/aws-cloudwatch-logs/troubleshooting)
+1. [**Obtaining your API key**](/timber-app/applications/obtaining-api-key)
+2. [**Troubleshooting**](troubleshooting)

@@ -14,5 +14,5 @@ In the above example, only queries that exceed 2 seconds in execution time will 
 
 ### Other Related docs
 
-1. [**Metadata, context, & events**](/docs/concepts/metadata-context-and-events)
-2. [**SQL query event**](/docs/concepts/log-json-schema/events/sql-query-event)
+1. [**Metadata, context, & events**](/timber-concepts/metadata-context-and-events)
+2. [**SQL query event**](/timber-concepts/log-event-json-schema/events/sql-query-event)

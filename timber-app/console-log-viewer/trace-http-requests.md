@@ -1,9 +1,9 @@
 ---
 title: Trace HTTP Requests
 ---
-*ⓘ this feature requires the use of [one of our libraries](/docs/languages).*
+*ⓘ this feature requires the use of [one of our libraries](/timber-for-languages).*
 
-Modern applications are highly concurrent, which makes understanding the logs exceptionally difficult. The HTTP request tracing feature allows you to segment your logs by request ID, making it easy to view logs for specific HTTP requests. It quickly cuts out the noise enabling you to see only events related to that request. It uses [context](/docs/concepts/metadata-context-and-events), specifically the [HTTP context document](/docs/concepts/log-json-schema/contexts/http-context), to segment logs.
+Modern applications are highly concurrent, which makes understanding the logs exceptionally difficult. The HTTP request tracing feature allows you to segment your logs by request ID, making it easy to view logs for specific HTTP requests. It quickly cuts out the noise enabling you to see only events related to that request. It uses [context](/timber-concepts/metadata-context-and-events), specifically the [HTTP context document](/timber-concepts/log-event-json-schema/context/http), to segment logs.
 
 
 ## Steps
@@ -20,6 +20,6 @@ Modern applications are highly concurrent, which makes understanding the logs ex
 
 ### Related docs
 
-1. [**The Timber log JSON schema**](/docs/concepts/log-json-schema)
-2. [**HTTP context**](/docs/concepts/log-json-schema/contexts/http)
-3. [**Metadata, context, & events**](/docs/concepts/metadata-context-and-events)
+1. [**The Timber log JSON schema**](/timber-concepts/log-event-json-schema)
+2. [**HTTP context**](/timber-concepts/log-event-json-schema/context/http)
+3. [**Metadata, context, & events**](/timber-concepts/metadata-context-and-events)

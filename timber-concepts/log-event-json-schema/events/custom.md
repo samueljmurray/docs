@@ -1,9 +1,9 @@
 ---
 title: Log JSON Schema - event.custom
 ---
-*Note: Our [libraries](/docs/languages) provide a simple API to log custom events.*
+*Note: Our [libraries](/timber-for-languages) provide a simple API to log custom events.*
 
-The `custom` event allows you to extend beyond the events [already provided by Timber](/docs/concepts/log-json-schema/events) by providing your own custom events.
+The `custom` event allows you to extend beyond the events [already provided by Timber](/timber-concepts/log-event-json-schema/events) by providing your own custom events.
 
 
 ## Example JSON Structure
@@ -26,14 +26,14 @@ Notice the `payment_rejected` key. This is your event type. Each custom event is
 
 ## Using this data
 
-1. [Search it](/docs/app/console/searching) with queries like: `payment_rejected.customer_id:abcd1234` or `has:payment_rejected.customer_id`
-2. [Alert on it](/docs/app/console/alerts) with threshold based alerts
-3. [Graph & visualize it](/docs/app/console/graphing)
-4. [View this data and context on the log line itself](/docs/app/console/view-metdata-and-context)
+1. [Search it](/timber-app/console-log-viewer/searching) with queries like: `payment_rejected.customer_id:abcd1234` or `has:payment_rejected.customer_id`
+2. [Alert on it](/timber-app/console-log-viewer/alerts) with threshold based alerts
+3. [Graph & visualize it](/timber-app/console-log-viewer/graphing)
+4. [View this data and context on the log line itself](/timber-app/console-log-viewer/view-metdata-and-context)
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**Timber libraries**](/docs/languages)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**Timber libraries**](/timber-for-languages)

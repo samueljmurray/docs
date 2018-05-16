@@ -1,1 +1,1 @@
-Installation of Timber on [Now (Zeit)](https://zeit.co/now) uses the Timber Node library. Please follow the [Timber Node library HTTP installation instructions](/docs/languages/node/installation/http).
+Installation of Timber on [Now (Zeit)](https://zeit.co/now) uses the Timber Node library. Please follow the [Timber Node library HTTP installation instructions](/timber-for-languages/node/installation/http).

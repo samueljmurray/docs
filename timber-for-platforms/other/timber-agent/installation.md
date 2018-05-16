@@ -10,7 +10,7 @@
     * [NetBSD AMD64 latest](https://packages.timber.io/agent/0.x.x/netbsd-amd64/timber-agent-0.x.x-netbsd-amd64.tar.gz)
     * [OpenBSD AMD64 latest](https://packages.timber.io/agent/0.x.x/openbsd-amd64/timber-agent-0.x.x-openbsd-amd64.tar.gz)
 
-    All releases can be found [here](https://github.com/timberio/agent/releases). More special download links can be found [here](/docs/platforms/other/agent/versioning).
+    All releases can be found [here](https://github.com/timberio/agent/releases). More special download links can be found [here](/timber-for-platforms/other/agent/versioning).
 
 2. Unpack the archive to a common location like `/opt`:
 
@@ -24,7 +24,7 @@
     cp /opt/timber-agent/support/config/timber.basic.toml /etc/timber.toml
     ```
 
-4. In `/etc/timber.toml` replace `MY_TIMBER_API_KEY` with your API key. **<small style="float: right">[don't have a key?](/docs/app/applications/obtaining-api-key)</small>**
+4. In `/etc/timber.toml` replace `MY_TIMBER_API_KEY` with your API key. **<small style="float: right">[don't have a key?](/timber-app/applications/obtaining-api-key)</small>**
 
     ```shell
     sed -i 's/MY_TIMBER_API_KEY/{{my-timber-api-key}}/g' file.txt
@@ -40,4 +40,4 @@
     /opt/timber-agent/bin/timber-agent timber-agent capture-files
     ```
 
-    Checkout the [usage guide](/docs/platforms/other/agent/usage) as well as the [startup scripts](https://github.com/timberio/agent/tree/master/support/scripts/startup) to assist with starting and stopping the agent.
+    Checkout the [usage guide](/timber-for-platforms/other/agent/usage) as well as the [startup scripts](https://github.com/timberio/agent/tree/master/support/scripts/startup) to assist with starting and stopping the agent.

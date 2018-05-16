@@ -1,7 +1,7 @@
 ---
 title: Metrics & Timings
 ---
-Aggregates destroy details, events tell stories. With Timber, logging metrics and timings is simply [logging an event](/docs/languages/elixir/usage/custom-events). Timber is based on modern big-data principles and can aggregate inordinately large data sets in seconds. Logging events (raw data as it exists), gives you the flexibility in the future to segment and aggregate your data any way you see fit. This is superior to choosing specific paradigms before hand, when you are unsure how you'll need to use your data in the future.
+Aggregates destroy details, events tell stories. With Timber, logging metrics and timings is simply [logging an event](/timber-for-languages/elixir/usage/custom-events). Timber is based on modern big-data principles and can aggregate inordinately large data sets in seconds. Logging events (raw data as it exists), gives you the flexibility in the future to segment and aggregate your data any way you see fit. This is superior to choosing specific paradigms before hand, when you are unsure how you'll need to use your data in the future.
 
 
 ## How to use it
@@ -27,6 +27,6 @@ Logger.info(
 )
 ```
 
-1. [Search it](/docs/app/console/searching) with queries like: `type:cart_add` or `cart_add.price:>100`
-2. [Alert on it](/docs/app/alerts) with threshold based alerts
-3. [Graph & visualize it](/docs/app/graphs)
+1. [Search it](/timber-app/console-log-viewer/searching) with queries like: `type:cart_add` or `cart_add.price:>100`
+2. [Alert on it](/timber-app/alerts) with threshold based alerts
+3. [Graph & visualize it](/timber-app/graphs)

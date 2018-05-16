@@ -4,7 +4,7 @@
    bin/logstash-plugin install logstash-output-timber
    ```
 
-2. *Create* a `/etc/logstash/conf.d/logstash-timber.conf` file with the following contents: <small style="float: right" class="platform-alt"><a href="/docs/platforms/logstash/configuration">view all configuration options</a></small>
+2. *Create* a `/etc/logstash/conf.d/logstash-timber.conf` file with the following contents: <small style="float: right" class="platform-alt"><a href="/timber-for-platforms/logstash/configuration">view all configuration options</a></small>
 
    ```
    output{
@@ -24,6 +24,6 @@
 
 ### Related docs
 
-1. [**Obtaining your API key**](/docs/app/applications/obtaining-api-key)
-2. [**Timber for languages**](/docs/languages)
-3. [**Troubleshooting**](/docs/platforms/logstash/troubleshooting)
+1. [**Obtaining your API key**](/timber-app/applications/obtaining-api-key)
+2. [**Timber for languages**](/timber-for-languages)
+3. [**Troubleshooting**](/timber-for-platforms/logstash/troubleshooting)

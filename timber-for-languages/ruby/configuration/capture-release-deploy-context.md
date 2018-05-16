@@ -1,7 +1,7 @@
 ---
 title: Capture Release & Deploy Context
 ---
-[Timber::Contexts::Release](http://www.rubydoc.info/github/timberio/timber-ruby/Timber/Contexts/Release)
+[Timber::Contexts::Release](http://www.rubydoc.info/github/timberio/timber-ruby/Timber/context/Release)
 tracks the current application release and version.
 
 

@@ -57,6 +57,6 @@ Any condition(s) can be grouped together with parenthesis and prefixed with a `-
 
 ### Related docs
 
-1. [**Your application's dynamic schema**](/docs/concepts/application-schema)
-2. [**The Timber Log JSON schema**](/docs/concepts/log-json-schema)
-3. [**Metadata, context, & events**](/docs/concepts/metadata-context-and-events)
+1. [**Your application's dynamic schema**](/timber-concepts/application-schema)
+2. [**The Timber Log JSON schema**](/timber-concepts/log-event-json-schema)
+3. [**Metadata, context, & events**](/timber-concepts/metadata-context-and-events)

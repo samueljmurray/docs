@@ -1,7 +1,7 @@
 ---
 title: Log JSON Schema - context.release
 ---
-*Note: This context is automatically added to your logs through our [libraries](/docs/languages)*
+*Note: This context is automatically added to your logs through our [libraries](/timber-for-languages)*
 
 The `release` context adds data about the current release (or deployment) of your application.
 
@@ -33,14 +33,14 @@ All fields are optional, but one must be supplied.
 
 ## Using this data
 
-1. [Search it](/docs/app/console/searching) with queries like: `release.version:1.2.1` or `has:release.version`
-2. [Alert on it](/docs/app/console/alerts) with threshold based alerts
-3. [Graph & visualize it](/docs/app/console/graphing)
-4. [Access this data by viewing the log's metadata](/docs/app/console/view-metdata-and-context)
+1. [Search it](/timber-app/console-log-viewer/searching) with queries like: `release.version:1.2.1` or `has:release.version`
+2. [Alert on it](/timber-app/console-log-viewer/alerts) with threshold based alerts
+3. [Graph & visualize it](/timber-app/console-log-viewer/graphing)
+4. [Access this data by viewing the log's metadata](/timber-app/console-log-viewer/view-metdata-and-context)
 
 ---
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**Timber libraries**](/docs/languages)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**Timber libraries**](/timber-for-languages)

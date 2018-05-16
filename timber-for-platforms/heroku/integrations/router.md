@@ -2,7 +2,7 @@ Every Heroku application sits behind the [Heroku router](https://devcenter.herok
 
 |You'll Get|
 |:------|
-|<i>+</i>[HTTP response event](/docs/concepts/log-json-schema/events/http-response-event)|
+|<i>+</i>[HTTP response event](/timber-concepts/log-event-json-schema/events/http-response-event)|
 
 
 ## How to use it
@@ -18,7 +18,7 @@ A typical Heroku routing event will look something like:
 at=info method=OPTIONS path="/log_lines?application_ids%5B%5D=34&query=&sort=dt.asc&dt_gt=2017-02-26T17%3A26%3A32.176Z&limit=100" host=api.timber.io request_id=6496008c-fa5d-4b32-a0ec-f6346297761e fwd="2605:6000:1520:c108:057c:4fc8:7406:25c5,162.158.69.20" dyno=web.1 connect=1ms service=1ms status=204 bytes=687
 ```
 
-Timber will recognize this event and parse it into a [`http_response` event](/docs/concepts/log-json-schema/events/http-response-event) since the Heroku router logs this after the request has been completed. The event will look like:
+Timber will recognize this event and parse it into a [`http_response` event](/timber-concepts/log-event-json-schema/events/http-response-event) since the Heroku router logs this after the request has been completed. The event will look like:
 
 ```json
 {
@@ -54,4 +54,4 @@ Timber will recognize this event and parse it into a [`http_response` event](/do
 
 ### Related Docs
 
-* [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
+* [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)

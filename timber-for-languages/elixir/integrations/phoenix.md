@@ -9,23 +9,23 @@ The [Timber for Elixir](https://github.com/timberio/timber-ruby) [Phoenix](http:
 
 |You'll Get|
 |:------|
-|<i>+</i>[`event.controller_call`](/docs/concepts/log-json-schema/events/controller-call-event)|
-|<i>+</i>[`event.template_render`](/docs/concepts/log-json-schema/events/template-render-event)|
+|<i>+</i>[`event.controller_call`](/timber-concepts/log-event-json-schema/events/controller-call-event)|
+|<i>+</i>[`event.template_render`](/timber-concepts/log-event-json-schema/events/template-render-event)|
 
-*Note: the [`event.http_request`](/docs/concepts/log-json-schema/events/http-request-event) and [`event.http_response`](/docs/concepts/log-json-schema/events/http-response-event) fields are added by the [`Plug` integration](/docs/languages/elixir/integrations/plug).*
+*Note: the [`event.http_request`](/timber-concepts/log-event-json-schema/events/http-request-event) and [`event.http_response`](/timber-concepts/log-event-json-schema/events/http-response-event) fields are added by the [`Plug` integration](/timber-for-languages/elixir/integrations/plug).*
 
 
 ## What you can do with this data
 
-1. [**Inspect HTTP requests & their parameters**](/docs/app/console/inspect-http-requests)
-2. [**Inspect Phoenix logs and view their associated metadata**](/docs/app/console/view-metadata-and-context)
-3. [**Search on Phoenix structured data**](/docs/app/console/searching)
-4. [**Alert on Phoenix structured data**](/docs/app/alerts)
+1. [**Inspect HTTP requests & their parameters**](/timber-app/console-log-viewer/inspect-http-requests)
+2. [**Inspect Phoenix logs and view their associated metadata**](/timber-app/console-log-viewer/view-metadata-and-context)
+3. [**Search on Phoenix structured data**](/timber-app/console-log-viewer/searching)
+4. [**Alert on Phoenix structured data**](/timber-app/alerts)
 
 
 ## Installation
 
-*⚠ It is highly recommend to use the [installer](/docs/languages/elixir/installation), it will install this integration automatically.*
+*⚠ It is highly recommend to use the [installer](/timber-for-languages/elixir/installation), it will install this integration automatically.*
 
 1. In your `config/config.exs` file add the Timber instrumenter:
 
@@ -76,6 +76,6 @@ Disabling the Phoenix integration is as simple as skipping or reversing the inst
 
 ### Other Related docs
 
-1. [**Metadata, context, and events**](/docs/concepts/metadata-context-and-events)
-2. [**The Timber Log Schema**](/docs/concepts/log-json-schema)
-3. [**Structuring through augmentation**](/docs/concepts/structuring-through-augmentation)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**The Timber Log Schema**](/timber-concepts/log-event-json-schema)
+3. [**Structuring through augmentation**](/timber-concepts/structuring-through-augmentation)
