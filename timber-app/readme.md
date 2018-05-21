@@ -1,7 +1,8 @@
 ---
-url: /app/
+url: app
 sidebar_append:
   - component: Divider
+  - new-design
   - title: Login
     url: https://app.timber.io
 ---
@@ -9,7 +10,7 @@ The Timber application is a beautiful modern utility for viewing, [searching](co
 
 1. [**Console / Log Viewer** - Search, tail, and view your logs](console-log-viewer)
 2. [**Alerts** - Threshold based monitoring with email & slack integration](alerts)
-4. [**Apps** - Manage your applications, log sources, & API keys](apps)
+4. [**Applications** - Manage your applications, log sources, & API keys](applications)
 5. [**Settings** - Administrative functions](settings)
 
 
