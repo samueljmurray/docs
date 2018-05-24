@@ -1,5 +1,6 @@
 {
   "name": "Timber Documentation",
+  "logo": "logo.png",
   "languages": [
     "javascript",
     "json",
@@ -10,5 +11,8 @@
     "ruby",
     "toml",
     "text"
+  ],
+  "header_links": [
+    { "title": "Back to Site", "href": "https://timber.io" }
   ]
 }

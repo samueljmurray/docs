@@ -10,7 +10,7 @@ heroku drains:add https://{{my-timber-api-key}}@logs.timber.io/frames -a myapp
 
 ### Related Docs
 
-1. [**Obtaining your API key**](/app/applications/obtaining-api-key)
+1. [**Obtaining your API key**](/app/applications/obtaining-your-api-key)
 2. [**Configuration**](/platforms/heroku/configuration)
 3. [**Timber for languages**](/languages)
 4. [**Troubleshooting**](/platforms/heroku/troubleshooting)

@@ -23,5 +23,5 @@
 ### Related docs
 
 1. [**Manual installation**](/languages/elixir/installation/manual)
-2. [**Obtaining your API key**](/app/applications/obtaining-api-key)
+2. [**Obtaining your API key**](/app/applications/obtaining-your-api-key)
 3. [**Troubleshooting**](/languages/elixir/troubleshooting)

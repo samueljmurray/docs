@@ -18,5 +18,5 @@
 
 ### Related docs
 
-1. [**Obtaining your API key**](/app/applications/obtaining-api-key)
+1. [**Obtaining your API key**](/app/applications/obtaining-your-api-key)
 2. [**Timber for languages**](/languages)

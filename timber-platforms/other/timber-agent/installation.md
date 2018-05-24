@@ -24,7 +24,7 @@
     cp /opt/timber-agent/support/config/timber.basic.toml /etc/timber.toml
     ```
 
-4. In `/etc/timber.toml` replace `MY_TIMBER_API_KEY` with your API key. **<small style="float: right">[don't have a key?](/app/applications/obtaining-api-key)</small>**
+4. In `/etc/timber.toml` replace `MY_TIMBER_API_KEY` with your API key. **<small style="float: right">[don't have a key?](/app/applications/obtaining-your-api-key)</small>**
 
     ```shell
     sed -i 's/MY_TIMBER_API_KEY/{{my-timber-api-key}}/g' file.txt

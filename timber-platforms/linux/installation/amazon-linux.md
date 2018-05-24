@@ -21,6 +21,6 @@ service timber-agent start
 
 ### Related docs
 
-1. [**Obtaining your API key**](/app/applications/obtaining-api-key)
+1. [**Obtaining your API key**](/app/applications/obtaining-your-api-key)
 2. [**Line-by-line shell script explanation**](/platforms/linux/installation/amazon-linux/line-by-line-explanation)
 3. [**Troubleshooting**](/platforms/linux/troubleshooting)
