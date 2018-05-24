@@ -1,3 +1,14 @@
 {
-  "name": "Timber Documentation"
+  "name": "Timber Documentation",
+  "languages": [
+    "javascript",
+    "json",
+    "elixir",
+    "shell",
+    "bash",
+    "diff",
+    "ruby",
+    "toml",
+    "text"
+  ]
 }
