@@ -1,5 +1,6 @@
 {
   "name": "Timber Documentation",
+  "root": "docs",
   "logo": "logo.png",
   "languages": [
     "javascript",

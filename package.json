@@ -1,0 +1,10 @@
+{
+  "name": "timber-docs",
+  "scripts": {
+    "build": "gitdocs build",
+    "start": "gitdocs serve"
+  },
+  "dependencies": {
+    "gitdocs": "^2.0.0-beta5"
+  }
+}
