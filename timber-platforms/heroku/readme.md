@@ -1,9 +1,9 @@
 ---
-sidebar:
-  - installation
-  - configuration
+items:
+  - installation.md
+  - configuration.md
   - integrations
-  - troubleshooting
+  - troubleshooting.md
 ---
 With Timber's [Heroku](http://heroku.com) integration you can seamlessly delivery your Heroku logs to your Timber account, allowing you to maximize the utility of your Heroku logs through Timber's modern interface and features.
 

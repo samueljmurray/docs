@@ -1,8 +1,8 @@
 ---
 title: Log Formats & Parsing
-sidebar_prepend:
-  - prefixed-dates
-  - prefixed-levels
+items_prepend:
+  - prefixed-dates.md
+  - prefixed-levels.md
   - component: Divider
 ---
 *Note: If you are sending application logs to Timber we recommend using our [libraries](/languages). These libraries transparently augment your logs with [metadata & context](/concepts/metadata-context-and-events). They work in concert with our console to give you rich structured logs without the additional effort.*

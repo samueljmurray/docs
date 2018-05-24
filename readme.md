@@ -1,5 +1,5 @@
 ---
-sidebar:
+items_append:
   - timber-languages
   - timber-platforms
   - timber-app
@@ -7,10 +7,11 @@ sidebar:
   - component: Divider
   - timber-guides
   - timber-concepts
+  - component: Divider
   - title: API Documentation
-    link: https://api-docs.timber.io/
+    url: https://api-docs.timber.io/
   - title: Roadmap
-    link: https://github.com/timberio/feature-requests
+    url: https://github.com/timberio/feature-requests
 ---
 # Overview
 

@@ -1,7 +1,7 @@
 ---
-sidebar_append:
+items_append:
   - component: Divider
-  - custom
+  - custom.md
 ---
 The [Timber log event JSON schema](https://github.com/timberio/log-event-json-schema) defines a [root level `context` key](https://github.com/timberio/log-event-json-schema/blob/master/schema.json#L41) the contains a JSON document. It represents the environment the log was written and is shared across your log lines. Think of it like log join data. It's incredibly powerful, allowing you related logs and perform tasks like [tailing users](/app/console-log-viewer/tail-a-user) or [tracing HTTP requests](/app/console-log-viewer/trace-http-requests). It's available sub-keys are:
 

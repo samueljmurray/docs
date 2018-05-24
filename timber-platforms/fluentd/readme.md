@@ -1,5 +1,5 @@
 ---
-sidebar_append:
+items_append:
   - component: Divider
   - title: FluentD Output Plugin
     url: https://github.com/timberio/fluent-plugin-timber

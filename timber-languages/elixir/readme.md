@@ -1,10 +1,10 @@
 ---
-sidebar:
-  - installation
+items:
+  - installation.md
   - usage
   - configuration
   - integrations
-  - troubleshooting
+  - troubleshooting.md
   - component: Divider
   - title: Library Docs
     url: https://hexdocs.pm/timber/readme.html

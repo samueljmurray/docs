@@ -1,10 +1,10 @@
 ---
-sidebar:
-  - installation
+items:
+  - installation.md
   - usage
   - configuration
   - integrations
-  - troubleshooting
+  - troubleshooting.md
   - component: Divider
   - title: Library Documentation
     url: https://www.rubydoc.info/github/timberio/timber-ruby

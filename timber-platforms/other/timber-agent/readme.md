@@ -1,9 +1,9 @@
 ---
-sidebar:
-  - installation
-  - usage
-  - configuration-file
-  - versioning
+items:
+  - installation.md
+  - usage.md
+  - configuration-file.md
+  - versioning.md
   - component: Divider
   - title: Github Repo
     url: https://github.com/timberio/agent

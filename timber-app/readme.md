@@ -1,8 +1,7 @@
 ---
 url: app
-sidebar_append:
+items_append:
   - component: Divider
-  - new-design
   - title: Login
     url: https://app.timber.io
 ---

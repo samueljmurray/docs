@@ -1,9 +1,9 @@
 ---
 title: Timber for Languages
 url: languages
-sidebar_append:
-  - title: Ruby Ruby
-    path: ruby
+items_append:
+  - path: ruby
+    title: Ruby Duby
   - component: Divider
   - other
 ---

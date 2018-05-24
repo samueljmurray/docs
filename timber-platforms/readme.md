@@ -1,7 +1,7 @@
 ---
 title: Timber for Platforms
 url: platforms
-sidebar_append:
+items_append:
   - component: Divider
   - other
 ---

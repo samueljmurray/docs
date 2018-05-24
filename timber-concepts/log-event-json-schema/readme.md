@@ -1,5 +1,5 @@
 ---
-sidebar_append:
+items_append:
   - component: Divider
   - title: Github Repo
     url: https://github.com/timberio/log-event-json-schema
