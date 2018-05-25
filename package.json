@@ -5,6 +5,6 @@
     "start": "gitdocs serve"
   },
   "dependencies": {
-    "gitdocs": "^2.0.0-beta5"
+    "gitdocs": "2.0.0-beta7"
   }
 }
