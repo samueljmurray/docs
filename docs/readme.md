@@ -1,5 +1,5 @@
 ---
-items_append:
+items:
   - timber-languages
   - timber-platforms
   - timber-app
