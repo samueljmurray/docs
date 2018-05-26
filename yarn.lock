@@ -1917,9 +1917,9 @@ get-value@^2.0.3, get-value@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/get-value/-/get-value-2.0.6.tgz#dc15ca1c672387ca76bd37ac0a395ba2042a2c28"
 
-gitdocs@^2.0.0-beta9:
-  version "2.0.0-beta9"
-  resolved "https://registry.yarnpkg.com/gitdocs/-/gitdocs-2.0.0-beta9.tgz#8654f577f5c2c1bdb06c12f26b6b12e5ab8efa5b"
+gitdocs@^2.0.0-beta10:
+  version "2.0.0-beta10"
+  resolved "https://registry.yarnpkg.com/gitdocs/-/gitdocs-2.0.0-beta10.tgz#105c790987f84997917d9e79d09dc29e9e8d3a16"
   dependencies:
     "@timberio/ui" "^1.0.2"
     axios "^0.18.0"
