@@ -1,6 +1,3 @@
----
-title: Log JSON Schema - event.custom
----
 *Note: Our [libraries](/languages) provide a simple API to log custom events.*
 
 The `custom` event allows you to extend beyond the events [already provided by Timber](/concepts/log-event-json-schema/events) by providing your own custom events.

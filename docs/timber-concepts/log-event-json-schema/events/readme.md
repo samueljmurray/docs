@@ -1,5 +1,4 @@
 ---
-title: Log Event JSON Schema - event
 items_append:
   - component: Divider
   - custom.md

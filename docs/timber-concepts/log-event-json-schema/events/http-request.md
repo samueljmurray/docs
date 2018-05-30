@@ -1,6 +1,3 @@
----
-title: Log Event JSON Schema - event.http_request
----
 *Note: Our [libraries](/languages) integrate with frameworks and libraries to log this event automatically.*
 
 The `http_request` event is an event defined in our [log event JSON schema](/concepts/log-event-json-schema). It's a structured representation of HTTP request events in your logs.

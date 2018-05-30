@@ -1,6 +1,3 @@
----
-title: Log JSON Schema - context.user
----
 *Note: This context is automatically added to your logs through our [libraries](/languages)*
 
 The `user` context adds user level context data to your logs such as `id`, `name`, and `email`.

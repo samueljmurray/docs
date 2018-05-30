@@ -1,6 +1,3 @@
----
-title: Log Event JSON Schema - event.http_response
----
 *Note: Our [libraries](/languages) integrate with frameworks and libraries to log this event automatically.*
 
 The `http_response` event represnts the response of a HTTP request.

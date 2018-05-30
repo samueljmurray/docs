@@ -1,6 +1,3 @@
----
-title: Log JSON Schema - context.http
----
 *Note: This context is automatically added to your logs through our [libraries](/languages)*
 
 The `http` context adds HTTP data within the context of a HTTP request. Any log line written within a single HTTP request will share this context data.

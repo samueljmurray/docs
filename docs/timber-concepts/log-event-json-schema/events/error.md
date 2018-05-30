@@ -1,6 +1,3 @@
----
-title: Log Event JSON Schema - event.error
----
 *Note: Our [libraries](/languages) capture errors and exceptions and log this event automatically.*
 
 The `error` event formally tracks errors in your application. Instead of errors
