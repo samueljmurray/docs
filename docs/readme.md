@@ -1,5 +1,4 @@
 ---
-toc: append
 items:
   - timber-languages
   - timber-platforms
