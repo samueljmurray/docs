@@ -1,15 +1,5 @@
 The security and privacy of your data is _critically_ important to Timber and has been a primary concern since Timber was created. The Timber team comes from strong enterprise software experience, working with health and financial institutions to meet stringent security and compliance standards. This knowledge, and the pracices that accompany them, have been implemented into Timber since day one.
 
-1. [**Data in-transit**](#data-in-transit)
-2. [**Data at-rest**](#data-at-rest)
-3. [**Logical data separation**](#logical-data-separation)
-4. [**Physical security**](#physical-security)
-5. [**User security**](#user-security)
-6. [**Timber employee account access**](#timber-employee-account-access)
-7. [**Software development lifecycle**](#software-development-lifecycle)
-8. [**Incident response**](#incident-response)
-9. [**Trusting Timber**](#trusting-timber)
-
 ## Data in-transit
 
 ### Protocols

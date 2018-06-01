@@ -1,14 +1,5 @@
 The documentation covers billing for the Timber hosted service.
 
-1. [Billing plans](#billing-plans)
-2. [Billing periods](#billing-periods)
-3. [Trials](#trials)
-4. [Upgrades & downgrades](#upgrades-&-downgrades)
-5. [Usage calculation](#usage-calculation)
-6. [Usage overages](#usage-overages)
-7. [Cancellations](#cancellations)
-8. [Questions](#questions)
-
 ## Billing plans
 
 Timber's billing plans are publicly available on our [pricing page](/pricing). Each plan outlines it's retention and data volume limits, as well as the various features each plan includes. To ensure this page does not get out of sync, specific plan details can be found there. The most update to date details will be reflected there.

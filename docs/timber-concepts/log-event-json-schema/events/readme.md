@@ -5,13 +5,6 @@ items_append:
 ---
 Events are structured representations of the log line itself. To explore the available events:
 
-1. [**`event.controller_call`**](controller-call)
-2. [**`event.custom`**](custom)
-3. [**`event.error`**](error)
-4. [**`event.http_request`**](http-request)
-5. [**`event.http_response`**](http-response)
-6. [**`event.sql_query`**](sql-query)
-
 ---
 
 ### Related Docs

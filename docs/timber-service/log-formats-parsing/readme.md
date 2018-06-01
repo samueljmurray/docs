@@ -1,5 +1,7 @@
 ---
 title: Log Formats & Parsing
+table_of_contents:
+  folder: false
 items_prepend:
   - prefixed-dates.md
   - prefixed-levels.md

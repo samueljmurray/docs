@@ -1,3 +1,7 @@
+---
+table_of_contents:
+  folder: false
+---
 Beyond your traditional logging statements, Timber offers a variety of ways to improve the quality of your Elixir logs. We recommend reviewing these popular guides:
 
 ### Basic Usage

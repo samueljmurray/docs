@@ -1,4 +1,6 @@
 ---
+table_of_contents:
+  folder: false
 items_append:
   - component: Divider
   - title: Github Repo

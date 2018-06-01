@@ -1,13 +1,5 @@
 The Timber service imposes limits to protect from abuse and ensure working order of our system as a whole.
 
-1. [**What we do _not_ limit**](#what-we-do-not-limit)
-2. [**Log ingestion limits**](#log-ingestion-limits)
-3. [**Log data limits**](#log-data-limits)
-4. [**Application schema limits**](#application-schema-limits)
-5. [**Alerts limits**](#alerts-limits)
-6. [**Service limit increases**](#service-limit-increases)
-
-
 ### What we do _not_ limit
 
 1. Timber does _not_ limit users.
