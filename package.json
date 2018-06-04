@@ -1,6 +1,5 @@
 {
   "private": true,
-  "name": "timber-docs",
   "scripts": {
     "build": "gitdocs build",
     "start": "gitdocs serve"
