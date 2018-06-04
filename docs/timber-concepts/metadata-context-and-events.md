@@ -16,7 +16,7 @@ Every log line stored in Timber is represented as a structured JSON document whi
 
 ## Context
 
-Context is like join data for your logs. It represents the environment at the time the log was written, allowing you relate logs and [search](/app/console-log-viewer/searching) them using this data. It's how Timber is able to provide features like [tailing a user](/app/console-log-viewer/tail-a-user) or [tracing a HTTP request](/app/console-log-viewer/trace-http-requests). Timber defines [common contexts](/concepts/log-event-json-schema/context) in it's [log JSON schema](/concepts/log-event-json-schema) but you can also define your own using [custom contexts](/concepts/log-event-json-schema/context/custom-context). Our [libraries](/languages) facilitate this process by automatically attaching context to your logs through its integrations and custom context API. Below is an example of a log line using context:
+Context is like join data for your logs. It represents the environment at the time the log was written, allowing you relate logs and [search](/app/console/searching) them using this data. It's how Timber is able to provide features like [tailing a user](/app/console/tail-a-user) or [tracing a HTTP request](/app/console/trace-http-requests). Timber defines [common contexts](/concepts/log-event-json-schema/context) in it's [log JSON schema](/concepts/log-event-json-schema) but you can also define your own using [custom contexts](/concepts/log-event-json-schema/context/custom-context). Our [libraries](/languages) facilitate this process by automatically attaching context to your logs through its integrations and custom context API. Below is an example of a log line using context:
 
 ```json
 {

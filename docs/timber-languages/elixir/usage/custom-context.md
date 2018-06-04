@@ -8,13 +8,13 @@ Timber.add_context(build: %{version: "1.0.0"})
 Logger.info("My log message")
 ```
 
-1. [Search it](/app/console-log-viewer/searching) with queries like: `build.version:1.0.0`
-2. [View this context when viewing a log's metadata](/app/console-log-viewer/view-metdata-and-context)
+1. [Search it](/app/console/searching) with queries like: `build.version:1.0.0`
+2. [View this context when viewing a log's metadata](/app/console/view-metdata-and-context)
 
 
 ## How it works
 
-Context represents the current environment when the log was written. It's extremely powerful and introduces a missing gap with standard Elixir logging. In essence, it's join data for your logs, allowing you relate logs together without complicated regex searches. It's how Timber is able to provide features like [tailing a user](/app/console-log-viewer/tail-a-user) and [tracing a request](/app/console-log-viewer/trace-http-requests).
+Context represents the current environment when the log was written. It's extremely powerful and introduces a missing gap with standard Elixir logging. In essence, it's join data for your logs, allowing you relate logs together without complicated regex searches. It's how Timber is able to provide features like [tailing a user](/app/console/tail-a-user) and [tracing a request](/app/console/trace-http-requests).
 
 When your logs are received by the Timber service, they'll have the context included. The resulting JSON document for an example log will look like:
 

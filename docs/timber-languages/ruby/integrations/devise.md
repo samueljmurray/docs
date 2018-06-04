@@ -13,7 +13,7 @@ The [Timber for Ruby](https://github.com/timberio/timber-ruby) [Devise](https://
 
 ## What you can do
 
-1. [Tail a user](/app/console-log-viewer/tail-a-user)
+1. [Tail a user](/app/console/tail-a-user)
 
 ## Installation
 

@@ -41,7 +41,7 @@ end
 `body`, if logged, will be truncated to `2048` bytes for efficiency reasons. This can be adjusted
 with [`Timber.Config.http_body_size_limit/0`](https://hexdocs.pm/timber/Timber.Config.html#http_body_size_limit/0).*
 
-1. [Search it](/app/console-log-viewer/searching) with queries like: `http_request.service_name:stripe`
-2. [Alert on it](/app/console-log-viewer/alerts) with threshold based alerts
-3. [View this log's metadata in the console](/app/console-log-viewer/view-metdata-and-context)
+1. [Search it](/app/console/searching) with queries like: `http_request.service_name:stripe`
+2. [Alert on it](/app/console/alerts) with threshold based alerts
+3. [View this log's metadata in the console](/app/console/view-metdata-and-context)
 4. ...read more in our [docs](/languages/elixir/usage/tracking-background-jobs-and-tasks)

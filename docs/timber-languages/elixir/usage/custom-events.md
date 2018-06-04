@@ -9,11 +9,11 @@ event_data = %{customer_id: "xiaus1934", amount: 1900, currency: "USD"}
 Logger.info("Payment rejected", event: %{payment_rejected: event_data})
 ```
 
-1. [Search it](/app/console-log-viewer/searching) with queries like: `type:payment_rejected` or `payment_rejected.amount:>100`
+1. [Search it](/app/console/searching) with queries like: `type:payment_rejected` or `payment_rejected.amount:>100`
 2. [Alert on it](/app/alerts) with threshold based alerts.
 3. [Graph & visualize it](/app/graphs)
-4. [View this event's data and context](/app/console-log-viewer/view-metadata-and-context)
-5. [Facet on this event type](/app/console-log-viewer/faceting-your-logs)
+4. [View this event's data and context](/app/console/view-metadata-and-context)
+5. [Facet on this event type](/app/console/faceting-your-logs)
 
 
 ## How it works

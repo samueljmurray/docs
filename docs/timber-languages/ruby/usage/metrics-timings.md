@@ -26,9 +26,9 @@ Lastly, metrics aren't limited to timings. You can capture any metric you want:
 logger.info("Credit card charged", credit_card_charge: {amount: 123.23})
 ```
 
-1. [Search it](/app/console-log-viewer/searching) with queries like: `background_job.time_ms:>500`
-2. [Alert on it](/app/console-log-viewer/alerts) with threshold based alerts
-3. [View this log's metadata in the console](/app/console-log-viewer/view-metdata-and-context)
+1. [Search it](/app/console/searching) with queries like: `background_job.time_ms:>500`
+2. [Alert on it](/app/console/alerts) with threshold based alerts
+3. [View this log's metadata in the console](/app/console/view-metdata-and-context)
 
 ---
 

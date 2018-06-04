@@ -14,9 +14,9 @@ The [Timber for Elixir](https://github.com/timberio/timber-ruby) [Phoenix](http:
 
 ## What you can do
 
-1. [Find slow SQL queries by searching:](/app/console-log-viewer/searching) `sql_query.time_ms:>500`
-2. [View SQL queries in the context of their HTTP request](/app/console-log-viewer/trace-http-requests)
-3. [Inspect SQL queries and view their associated metadata](/app/console-log-viewer/view-metadata-and-context)
+1. [Find slow SQL queries by searching:](/app/console/searching) `sql_query.time_ms:>500`
+2. [View SQL queries in the context of their HTTP request](/app/console/trace-http-requests)
+3. [Inspect SQL queries and view their associated metadata](/app/console/view-metadata-and-context)
 4. [Alert on Ecto structured data](/app/alerts)
 
 ## Installation

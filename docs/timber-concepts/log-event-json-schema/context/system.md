@@ -30,10 +30,10 @@ Name | Type | Description
 
 ## Using this data
 
-1. [Search it](/app/console-log-viewer/searching) with queries like: `system.hostname:server123.myhost.com`
-2. [Alert on it](/app/console-log-viewer/alerts) with threshold based alerts
-3. [Graph & visualize it](/app/console-log-viewer/graphing)
-4. [Access this data by viewing the log's metadata](/app/console-log-viewer/view-metdata-and-context)
+1. [Search it](/app/console/searching) with queries like: `system.hostname:server123.myhost.com`
+2. [Alert on it](/app/console/alerts) with threshold based alerts
+3. [Graph & visualize it](/app/console/graphing)
+4. [Access this data by viewing the log's metadata](/app/console/view-metdata-and-context)
 
 ---
 
