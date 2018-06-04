@@ -1,6 +1,8 @@
 ---
 title: Obtaining Your API Key
 ---
+# Obtaining Your API Key
+
 *Don't have an API key? You can obtain one by registering at [https://app.timber.io](https://app.timber.io). Your API key will be display after you create your first application within Timber.*
 
 ---

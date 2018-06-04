@@ -1,6 +1,8 @@
 ---
 title: Team Members & Access
 ---
+# Team Members & Access
+
 Timber makes it easy to add multiple users and manage their access. **There is no limit to the number of users you can add to your account.** This avoids account sharing and the inconveniences associated with that.
 
 

@@ -1,3 +1,5 @@
+# Link to a Log
+
 Identified a log you'd like to share? Timber allows you to link to individual logs, automatically opening the context panel when accessed.
 
 

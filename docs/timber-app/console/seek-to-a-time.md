@@ -1,3 +1,5 @@
+# Seek to a Time
+
 Timber allows you to quick seek to any specific time:
 
 

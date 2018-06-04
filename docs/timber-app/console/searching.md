@@ -1,3 +1,5 @@
+# Searching
+
 Searching your logs is arguably the most important feature a logging platform can provide, and Timber has taken great care to expose a simple, intuitive, yet powerful search syntax. It follows the [Lucene style syntax](https://lucene.apache.org/core/2_9_4/queryparsersyntax.html) with slight differences conducive to searching logs.
 
 ![App - Searching](//images.contentful.com/h6vh38q7qvzk/1PSwyA0Z9iGc64icYKA4Ei/26e68caa9316fc6364ec585b92e257d8/Screen_Recording_2017-08-12_at_12.44_PM.gif)

@@ -1,3 +1,5 @@
+# Keyboard Shortcuts
+
 Timber offers a variety of keyboard shortcuts that help you to use the app more efficiently:
 
 * `⌘ K` - Quick app switch

@@ -1,6 +1,8 @@
 ---
 title: View a Log's Metadata & Context
 ---
+# View a Log's Metadata & Context
+
 Timber [structures your logs through augmentation](/concepts/structuring-through-augmentation). This means you get rich structured data without the noisy hard to read messages. Accessing this data is as simple as clicking a button:
 
 

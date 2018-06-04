@@ -1,6 +1,8 @@
 ---
 title: Trace HTTP Requests
 ---
+# Trace HTTP Requests
+
 *ⓘ this feature requires the use of [one of our libraries](/languages).*
 
 Modern applications are highly concurrent, which makes understanding the logs exceptionally difficult. The HTTP request tracing feature allows you to segment your logs by request ID, making it easy to view logs for specific HTTP requests. It quickly cuts out the noise enabling you to see only events related to that request. It uses [context](/concepts/metadata-context-and-events), specifically the [HTTP context document](/concepts/log-event-json-schema/context/http), to segment logs.

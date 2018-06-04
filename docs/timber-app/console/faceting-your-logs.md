@@ -1,3 +1,5 @@
+# Faceting Your Logs
+
 Timber offers a powerful facets panel that grounds you when viewing your logs. It gives you a high level overview of it's structure as you search and explore your logs. Use this to quickly navigate through your logs.
 
 ## Demo

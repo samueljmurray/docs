@@ -1,3 +1,5 @@
+# How It Works
+
 Timber's alerting system is *stateful* and *threshold* based, giving you complete control over an alert's sensitivity. This makes alerts condusive for callbacks, where actions are taken based on state changes. For example, using web hooks to automatically scale infrastructure resources. The best way to demonstrate how alerts works is with a graph:
 
 ![Alerts - Demo](//images.contentful.com/h6vh38q7qvzk/bSGJvrOktG0ws0KO4McC2/0c59e40e5d94aee7f50e323b80244db9/Image_2017-08-14_at_10.30.51_PM.png)

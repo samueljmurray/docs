@@ -1,3 +1,5 @@
+# Creating Alerts
+
 Creating an alert within the Timber app is a straight-forward process:
 
 

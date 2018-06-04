@@ -1,3 +1,5 @@
+# Tail a User
+
 *ⓘ This feature requires the use of [one of our libraries](/timber-for-langauges).*
 
 Tailing a user allows you to filter the logs to a specific user. It uses [context](/concepts/metadata-context-and-events), specifically the [`context.user` document](/concepts/log-event-json-schema/context/user) to segment logs by a specific user.
