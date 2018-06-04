@@ -17,9 +17,9 @@ The [Timber for Elixir](https://github.com/timberio/timber-ruby) [Phoenix](http:
 
 ## What you can do with this data
 
-1. [**Inspect HTTP requests & their parameters**](/app/console-log-viewer/inspect-http-requests)
-2. [**Inspect Phoenix logs and view their associated metadata**](/app/console-log-viewer/view-metadata-and-context)
-3. [**Search on Phoenix structured data**](/app/console-log-viewer/searching)
+1. [**Inspect HTTP requests & their parameters**](/app/console/inspect-http-requests)
+2. [**Inspect Phoenix logs and view their associated metadata**](/app/console/view-metadata-and-context)
+3. [**Search on Phoenix structured data**](/app/console/searching)
 4. [**Alert on Phoenix structured data**](/app/alerts)
 
 

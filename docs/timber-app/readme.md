@@ -6,7 +6,7 @@ items_append:
   - title: Login
     url: https://app.timber.io
 ---
-The Timber application is a beautiful modern utility for viewing, [searching](console-log-viewer/searching), [inspecting](console-log-viewer/view-metdata-and-context), [alerting](alerts), and using your logs in a variety of ways.
+The Timber application is a beautiful modern utility for viewing, [searching](console/searching), [inspecting](console/view-metdata-and-context), [alerting](alerts), and using your logs in a variety of ways.
 
 ## Demo
 

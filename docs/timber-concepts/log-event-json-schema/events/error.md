@@ -106,7 +106,7 @@ Example queries:
 * Search: `error.name:RuntimeError`
 * Only this event: `is:exception`
 
-See our doc on [searching](/app/console-log-viewer/searching).
+See our doc on [searching](/app/console/searching).
 
 ---
 

@@ -13,8 +13,8 @@ The runtime integration captures runtime level context as your logs are generate
 
 ## What you can do
 
-1. [**Search your logs with this data**](/app/console-log-viewer/searching) - `system.hostname:server123.myhost.com`
-2. [**Access this data by viewing a log's metadata & context**](/app/console-log-viewer/view-metadata-and-context)
+1. [**Search your logs with this data**](/app/console/searching) - `system.hostname:server123.myhost.com`
+2. [**Access this data by viewing a log's metadata & context**](/app/console/view-metadata-and-context)
 
 ## Installation
 

@@ -46,7 +46,7 @@ Example queries:
 * Search: `http_server_response.status:200`
 * Only this event: `is:http_server_response`
 
-See our doc on [searching](/app/console-log-viewer/searching).
+See our doc on [searching](/app/console/searching).
 
 ---
 

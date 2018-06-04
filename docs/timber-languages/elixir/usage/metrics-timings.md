@@ -27,6 +27,6 @@ Logger.info(
 )
 ```
 
-1. [Search it](/app/console-log-viewer/searching) with queries like: `type:cart_add` or `cart_add.price:>100`
+1. [Search it](/app/console/searching) with queries like: `type:cart_add` or `cart_add.price:>100`
 2. [Alert on it](/app/alerts) with threshold based alerts
 3. [Graph & visualize it](/app/graphs)

@@ -17,7 +17,7 @@ Logger.info("Task execution started")
 Logger.info("Task execution completed")
 ```
 
-In the console you can [search this context](/app/console-log-viewer/searching) with a query like `job.id:abcd1234`.
+In the console you can [search this context](/app/console/searching) with a query like `job.id:abcd1234`.
 
 
 ## How it works

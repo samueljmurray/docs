@@ -23,10 +23,10 @@ Notice the `payment_rejected` key. This is your event type. Each custom event is
 
 ## Using this data
 
-1. [Search it](/app/console-log-viewer/searching) with queries like: `payment_rejected.customer_id:abcd1234` or `has:payment_rejected.customer_id`
-2. [Alert on it](/app/console-log-viewer/alerts) with threshold based alerts
-3. [Graph & visualize it](/app/console-log-viewer/graphing)
-4. [View this data and context on the log line itself](/app/console-log-viewer/view-metdata-and-context)
+1. [Search it](/app/console/searching) with queries like: `payment_rejected.customer_id:abcd1234` or `has:payment_rejected.customer_id`
+2. [Alert on it](/app/console/alerts) with threshold based alerts
+3. [Graph & visualize it](/app/console/graphing)
+4. [View this data and context on the log line itself](/app/console/view-metdata-and-context)
 
 ---
 

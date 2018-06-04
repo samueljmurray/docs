@@ -51,7 +51,7 @@ Example queries:
 * Searching: `controller_call.controller:WelcomeController`
 * Only this event: `is:controller_call`
 
-See our doc on [searching](/app/console-log-viewer/searching).
+See our doc on [searching](/app/console/searching).
 
 ---
 

@@ -39,7 +39,7 @@ Example queries:
 * Search: `sql_query.time_ms:>50`
 * Only this event: `is:sql_query`
 
-See our doc on [searching](/app/console-log-viewer/searching).
+See our doc on [searching](/app/console/searching).
 
 ---
 
