@@ -1,4 +1,5 @@
 ---
+description: An unobtrusive, drop in replacement for your Ruby logger.
 items:
   - installation.md
   - usage

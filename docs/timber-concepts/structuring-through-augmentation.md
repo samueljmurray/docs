@@ -1,3 +1,6 @@
+---
+description: Ensuring your logs are readable by appending metadata.
+---
 *Note: This article specifically relates to our [libaries](/languages) and how they achieve log structuring within your application.*
 
 A defining principle of Timber is ensuring your logs are readable. There is no doubt structured logging is neccessary to use your logs in meaningful ways, but it doesn't have to come at the price of making your logs unreadable. To solve this, Timber structures your logs through augmentation. What we mean by this is fairly simple. Instead of replacing your log messages with structured data, we preserve the original message and *append* metadata:

@@ -1,5 +1,6 @@
 ---
 url: app
+description: A beautiful modern utility for viewing, searching and inspecting your logs.
 items_append:
   - component: Divider
   - title: Login

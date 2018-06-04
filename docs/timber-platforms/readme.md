@@ -1,6 +1,7 @@
 ---
 title: Timber for Platforms
 url: platforms
+description: Easily send your logs from anywhere using our platform integrations.
 items_append:
   - component: Divider
   - other

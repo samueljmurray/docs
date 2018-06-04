@@ -1,4 +1,5 @@
 ---
+description: Use our highly efficient output plugin for efficient and reliable delivery.
 items:
   - installation.md
   - configuration

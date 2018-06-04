@@ -1,7 +1,7 @@
 ---
 title: Timber for Languages
 url: languages
-description: Some description goes here
+description: Learn how to use our language clients for Ruby, Node, Elixir and more.
 items_append:
   - path: ruby
     title: Ruby Duby

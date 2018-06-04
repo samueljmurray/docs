@@ -1,3 +1,6 @@
+---
+description: Learn about some of the limits Timber imposes to protect from abuse.
+---
 The Timber service does impose limits to protect from abuse and ensure working order of our system as a whole.
 
 ## What we limit

@@ -1,5 +1,6 @@
 ---
 title: AWS CloudWatch
+description: Enables log integration with most AWS services, such as Lambda, RDS, API Gateway, and more.
 items_append:
   - component: Divider
   - title: Github Repo

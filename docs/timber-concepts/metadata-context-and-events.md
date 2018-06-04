@@ -1,5 +1,6 @@
 ---
 title: Metadata, Context and Events
+description: Every log line is represented as structured JSON.
 ---
 Every log line stored in Timber is represented as a structured JSON document which is defined by our [log JSON schema](/concepts/log-event-json-schema). This offers 2 root level keys to hold your structured metadata: `context` and `event`, both of these are explained in more detail below. This structure sets the foundation for useful readable structured logging by decoupling the structured data from the message. Here's an example:
 
