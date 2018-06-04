@@ -1,5 +1,6 @@
 ---
 title: Console / Log Viewer
+description: The window into your logs, with real-time access to your stream.
 ---
 The Timber app console is the window into your logs, providing real-time access to your log stream. It was designed with modern front-end technologies to be extremely performant with a low memory footprint, handling log streams of any size. Below are guides to help you make the most of the Timber console:
 

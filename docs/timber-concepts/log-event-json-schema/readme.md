@@ -1,4 +1,5 @@
 ---
+description: A formalized process for structuring all your logs sent to Timber.
 table_of_contents:
   folder: false
 items_append:

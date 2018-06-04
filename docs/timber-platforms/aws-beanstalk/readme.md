@@ -1,5 +1,6 @@
 ---
 title: AWS Beanstalk
+description: Seamlessly deliver your Elastic Beanstalk logs to your Timber account.
 items:
   - installation.md
   - configuration

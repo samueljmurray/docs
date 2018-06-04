@@ -1,5 +1,6 @@
 ---
 title: Log Formats & Parsing
+description: A list of log formats that Timber recognizes.
 table_of_contents:
   folder: false
 items_prepend:
@@ -11,7 +12,7 @@ items_prepend:
 
 ---
 
-At it's core, Timber is a traditional log aggregation system, and it recognizes a variety of log formats. Below is a list of a log formats that Timber recognizes. Each format has a page explaining how it's parsed and the data you can expect to be extracted:
+At it's core, Timber is a traditional log aggregation system, and it recognizes a variety of log formats. Below is a list of log formats that Timber recognizes. Each format has a page explaining how it's parsed and the data you can expect to be extracted:
 
 * **Prefixed Arbitrary Formats**
 

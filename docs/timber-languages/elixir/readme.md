@@ -1,4 +1,5 @@
 ---
+description: A silent upgrade and no-risk addition to your Elixir app.
 items:
   - installation.md
   - usage

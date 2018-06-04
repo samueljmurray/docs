@@ -1,3 +1,6 @@
+---
+description: The security and privacy of your data is critically important to Timber.
+---
 The security and privacy of your data is _critically_ important to Timber and has been a primary concern since Timber was created. The Timber team comes from strong enterprise software experience, working with health and financial institutions to meet stringent security and compliance standards. This knowledge, and the pracices that accompany them, have been implemented into Timber since day one.
 
 ## Data in-transit

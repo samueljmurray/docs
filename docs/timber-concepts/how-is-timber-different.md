@@ -1,3 +1,6 @@
+---
+description: Since we take a radically different approach to logging.
+---
 Timber takes a radically different approach to logging. Timber believes the utility of your logs is directly correlated with the quality of your data. All logging platforms share this limitation, except Timber cheats by providing [application level libraries](/languages) that automatically generate high quality log data for you. This includes [context and metadata](/concepts/metadata-context-and-events) that otherwise couldn't be captured, uniquely positioning Timber to deliver high value developer features like:
 
 1. [Tailing a user](/app/console/tail-a-user)

@@ -1,3 +1,6 @@
+---
+description: All billing for the Timber hosted service explained.
+---
 The documentation covers billing for the Timber hosted service.
 
 ## Billing plans

@@ -1,4 +1,5 @@
 ---
+description: Use our highly efficient output plugin for efficient and reliable delivery.
 items_append:
   - component: Divider
   - title: FluentD Output Plugin

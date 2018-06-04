@@ -1,5 +1,6 @@
 ---
 title: Syslog
+description: Use a collector for events forwarded from your syslog daemon or infrastructure.
 ---
 Timber can act as a collector for syslog events forwarded from your syslog
 daemon or syslog infrastructure. We support the IETF [RFC 5425] standard, which
