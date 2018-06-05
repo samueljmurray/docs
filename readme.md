@@ -1,4 +1,5 @@
 ---
+description: Timber is a modern logging system that aggregates and structures your logs across various languages and platforms. It is a suite a products that combine to create a high-quality logging experience with minimal effort.
 items:
   - timber-languages
   - timber-platforms
