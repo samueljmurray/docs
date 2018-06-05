@@ -1,3 +1,5 @@
+# AWS Beanstalk Installation
+
 1. In your `shell` add the `TIMBER_API_KEY` env variable: **<small style="float: right">[prefer using the AWS console?](//images.contentful.com/h6vh38q7qvzk/4hM3wompS0gWSyuGKGQkok/a5ca83199a650e39ae6597d4d77fba76/Screen_Recording_2017-08-11_at_02.01_PM.gif)</small>**
 
    ```shell

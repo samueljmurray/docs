@@ -1,3 +1,5 @@
+# Runtime
+
 The runtime integration captures runtime level context as your logs are generated, such as the current thread ID.
 
 1. [**Structured data**](#structured-data)

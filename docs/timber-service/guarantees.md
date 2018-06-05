@@ -1,6 +1,8 @@
 ---
 description: Exactly once delivery and 11-9s of durability.
 ---
+# Guarantees
+
 The Timber service offers the following guarantees:
 
 1. 11-9s of durability.

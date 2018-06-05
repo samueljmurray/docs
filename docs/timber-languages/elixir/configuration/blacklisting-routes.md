@@ -1,3 +1,5 @@
+# Blacklisting Routes
+
 You may have HTTP routes in your application that you don't need logs for. When you use our Timber Elixir package, these logs are generated from two sources: the [Timber Event plug](https://hexdocs.pm/timber/Timber.Integrations.EventPlug.html#content) and the [Timber Phoenix instrumentation](https://hexdocs.pm/timber/Timber.Integrations.PhoenixInstrumenter.html).
 
 Logs produced by the Event plug can be suppressed by only attaching the plug to certain Phoenix pipelines. The logs produced by the Phoenix integration can be suppressed by blacklisting specific controller and action pairs.

@@ -3,6 +3,8 @@ items_append:
   - component: Divider
   - custom.md
 ---
+# JSON Schema Events
+
 Events are structured representations of the log line itself. To explore the available events:
 
 ---

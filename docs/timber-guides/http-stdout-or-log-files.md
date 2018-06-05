@@ -2,6 +2,8 @@
 title: HTTP, STDOUT, or Log Files?
 description: Simplify the process of deciding on a log destination.
 ---
+# HTTP, STDOUT, or Log Files?
+
 Configuring logging within your application and deciding on a log destinations can sometims be a complicated process. The purpose of this document is to help simplify this process and explain why you'd choose each destination. By no means is this is comprehensive list, but it does contain the popular methods used by most Timber customrs:
 
 1. [**HTTP**](#http)

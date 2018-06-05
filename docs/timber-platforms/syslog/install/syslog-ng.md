@@ -4,6 +4,8 @@ installation_instructions:
   platform: syslog
   subplatform: syslog-ng
 ---
+# Syslog-ng
+
 The following are general instructions for integrating syslog-ng v3.5+ with
 Timber. These instructions will cause _all_ syslog messages to be forwarded to
 Timber. This is probably _not_ what you want. Please review the instructions on

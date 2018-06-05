@@ -1,3 +1,5 @@
+# Sharing Context Between Processes
+
 The `Timber.Context` is local to each process, this is by design as it prevents processes from
 conflicting with each other as they maintain their contexts. But many times you'll want to share
 context between processes because they are related (such as processes created by `Task` or `Flow`).

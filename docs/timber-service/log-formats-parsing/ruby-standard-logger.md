@@ -1,3 +1,5 @@
+# Ruby Standard Logger
+
 Timber will parse the [Ruby standard logger format](https://ruby-doc.org/stdlib-2.1.0/libdoc/logger/rdoc/Logger.html#class-Logger-label-Format); this is defined as:
 
 ```

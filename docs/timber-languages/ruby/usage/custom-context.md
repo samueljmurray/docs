@@ -1,3 +1,5 @@
+# Custom Context
+
 Custom contexts allow you to extend beyond contexts already defined in
 the [`Timber::Contexts`](http://www.rubydoc.info/github/timberio/timber-ruby/Timber/context) namespace. If you aren't sure what context is, please read the ["Metdata, Context, and Events" doc](/concepts/metadata-context-and-events). The [How it works](#how-it-works) section below also expands on this concept.
 

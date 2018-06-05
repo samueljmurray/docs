@@ -1,3 +1,5 @@
+# Prefixed Levels
+
 If you are not using a formalized log format Timber makes a best effort to parse prefixed levels in your logs.
 
 ## Supported levels

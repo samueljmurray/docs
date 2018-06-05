@@ -1,3 +1,5 @@
+# Custom Context
+
 *Note: Our [libraries](/languages) provide a simple API to set custom contexts.*
 
 The `custom` context allows you to extend beyond the context [already provided by Timber](/concepts/log-event-json-schema/context) by providing your own custom contexts.

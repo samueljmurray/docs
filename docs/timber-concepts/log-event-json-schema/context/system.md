@@ -1,3 +1,5 @@
+# System Context
+
 *Note: This context is automatically added to your logs through our [libraries](/languages)*
 
 The `system` context adds server / system related context to your logs.

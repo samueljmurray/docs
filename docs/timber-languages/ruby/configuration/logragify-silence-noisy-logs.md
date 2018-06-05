@@ -1,6 +1,8 @@
 ---
 title: Logragigy. Silence Noisy Logs.
 ---
+# Logragigy. Silence Noisy Logs.
+
 Timber allows you to silence noisy logs that aren't of value to you, just like [lograge](https://github.com/roidrage/lograge). As such, we've provided a convenience configuration option for anyone transitioning from lograge.
 
 

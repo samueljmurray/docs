@@ -1,3 +1,5 @@
+# FluentD Installation
+
 1. In your `shell` install the [Timber Fluentd plugin](https://github.com/timberio/fluent-plugin-timber) by *executing*:
 
    ```shell

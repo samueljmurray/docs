@@ -1,3 +1,5 @@
+# Tracking External Service Communication
+
 We use this trick internally at Timber to track communication with external services.
 It logs requests and responses to external services, giving us insight into response times and
 failed requests.

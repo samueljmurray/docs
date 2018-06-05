@@ -4,6 +4,8 @@ installation_instructions:
   platform: syslog
   subplatform: rsyslog
 ---
+# Rsyslog
+
 The following are general instructions for integrating rsyslog v8+ with Timber.
 These instruction will cause _all_ syslog messages to be forwarded to Timber.
 This is probably _not_ what you want. Please review the instructions on using
@@ -26,7 +28,7 @@ limit the messages that are forwarded with the action.
 
 ```
 global(defaultNetstreamDriverCAFile="/etc/rsyslog.d/keys/ca.d/io.timber-wildcard.pem")
- 
+
 template(name="TimberFormat" type="list") {
   constant(value="<")
   property(name="pri")

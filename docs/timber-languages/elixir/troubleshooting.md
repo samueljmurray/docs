@@ -1,3 +1,5 @@
+# Elixir Troubleshooting
+
 *If you're having trouble don't hesitate to [contact us](mailto:support@timber.io)! We're passionate about helping our customers and providing good user experiences.*
 
 ![This is fine](//images.contentful.com/h6vh38q7qvzk/1R4u3xGgok8KICOAgoIGEI/655e36643ecd5bd28c51aec8762786fc/post-64231-this-is-fine-dog-fire-comic-Im-N7mp.png)

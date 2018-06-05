@@ -1,3 +1,5 @@
+# Silence Noisy Requests
+
 Silencing noisy requests can be helpful for silencing load balance health checks, bot scanning, or activity that generally is not meaningful to you.
 
 

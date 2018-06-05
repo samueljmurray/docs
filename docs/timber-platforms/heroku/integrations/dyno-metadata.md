@@ -1,3 +1,5 @@
+# Heroku Dyno Metadata
+
 *Note: This feature requires the use of [one of our libraries](/languages).*
 
 When you enable the [Heroku dyno metadata feature](https://devcenter.heroku.com/articles/dyno-metadata) for your Heroku application you'll automatically get release and deploy environment variables added to your application's environment. Our [libraries](/languages) automatically pick up these variables andd them as context to your logs.

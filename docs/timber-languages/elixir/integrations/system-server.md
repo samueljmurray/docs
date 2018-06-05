@@ -1,6 +1,8 @@
 ---
 title: System / Server
 ---
+# System / Server
+
 The System / Server integration captures system level context upon initialization, augmenting your logs with structured data like `hostname`, `ip`, `pid`, and more.
 
 1. [**Structured data**](#structured-data)

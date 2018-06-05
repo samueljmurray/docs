@@ -1,3 +1,5 @@
+# Rails
+
 The [Timber for Ruby](https://github.com/timberio/timber-ruby) [Rails](http://rubyonrails.org/) integration [enhances and augments](/concepts/structuring-through-augmentation) your Rails logs automatically.
 
 1. [**Structured data**](#structured-data)

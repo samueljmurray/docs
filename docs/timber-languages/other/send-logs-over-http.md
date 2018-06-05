@@ -1,6 +1,8 @@
 ---
 title: Send Logs Over HTTP
 ---
+# Send Logs Over HTTP
+
 Timber offers a [fully featured API](https://api-docs.timber.io/) and our [`POST /log_line` endpoint](https://api-docs.timber.io/#2c830bbd-cc4f-f50c-ea5e-a1756a967a75) makes it simple to send logs to your Timber account. To demonstrate, here's a simple [curl](https://curl.haxx.se/) command that send logs in `text/plain` format:
 
 ```shell

@@ -1,3 +1,5 @@
+# Amazon Linux
+
 *Execute* this shell script on the desired [Amazon Linux](https://aws.amazon.com/amazon-linux-ami/) server to install the [Timber Agent](/platforms/other/agent)
 
 ```sh

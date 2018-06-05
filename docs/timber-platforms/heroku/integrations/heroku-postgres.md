@@ -1,3 +1,5 @@
+# Heroku Postgres
+
 If you're using [Heroku postgres](https://www.heroku.com/postgres) as your database, it will log various events in your log event stream. Timber recognizes these events, structures them, and classifies them as:
 
 |You'll Get|

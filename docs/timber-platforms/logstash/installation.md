@@ -1,3 +1,5 @@
+# Logstash Installation
+
 1. In your `shell` install the [Timber Logstash plugin](https://github.com/logstash-plugins/logstash-output-timber):
 
    ```shell

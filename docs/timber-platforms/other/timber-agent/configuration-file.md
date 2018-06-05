@@ -1,3 +1,5 @@
+# Configuration File
+
 The Timber Agent configuration file is written in [TOML (v0.4.0)](https://github.com/toml-lang/toml/tree/v0.4.0). You can think of it as a super-powered cousin of INI syntax or a relaxed cousin of YAML. By default the Timber agent expects this file to be located at `/etc/timber.toml`, but you can adjust this path by passing the `--config` flag:
 
 ```shell

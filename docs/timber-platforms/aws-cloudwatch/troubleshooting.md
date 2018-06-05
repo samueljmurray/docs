@@ -1,3 +1,5 @@
+# AWS CloudWatch Troubleshooting
+
 *If you're having trouble, don't hesitate to [contact us](mailto:support@timber.io)! We're passionate about providing good support and user experiences.*
 
 ### Step 1: Ensure lambda function delivery

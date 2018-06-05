@@ -1,3 +1,5 @@
+# Installation
+
 1. Download the archive for your architecture:
 
     ```shell

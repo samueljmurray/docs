@@ -1,3 +1,5 @@
+# Heroku Configuration
+
 Timber [integrates with a variety of Heroku systems](/platforms/heroku/integrations), maximizing the utility of your Heroku logs. In order to take full advantage of these integrations, you must configure your app to enables these features:
 
 

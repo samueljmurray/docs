@@ -1,3 +1,5 @@
+# Prefixed Dates
+
 If you are not using a formalized log format Timber makes a best effort to parse prefixed dates in your logs.
 
 ## Supported date formats

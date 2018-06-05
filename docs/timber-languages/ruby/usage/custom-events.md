@@ -1,3 +1,5 @@
+# Custom Events
+
 Custom events allow you to extend beyond events already defined in
 the [`Timber::Events`](http://www.rubydoc.info/github/timberio/timber-ruby/Timber/Events) namespace. If you aren't sure what an event is, please read the ["Metdata, Context, and Events" doc](/concepts/metadata-context-and-events).
 

@@ -1,3 +1,5 @@
+# Versioning
+
 The versioning for the Timber Agent follows the [Semantic Versioning 2.0.0](http://semver.org/spec/v2.0.0.html) specification. As a quick overview:
 
 - Patch version changes after 1.0.0 will be backwards compatible bug fixes.

@@ -1,3 +1,5 @@
+# Controller Call Event
+
 *Note: Our [libraries](/languages) integrate with frameworks and libraries to log this event automatically.*
 
 The `controller_call` event represents an invocation of your controller within the HTTP

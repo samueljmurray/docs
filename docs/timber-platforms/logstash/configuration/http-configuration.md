@@ -1,3 +1,8 @@
+---
+title: HTTP Configuration
+---
+# HTTP Configuration
+
 Under the hood, Timber uses the excellent [manticore HTTP client](https://github.com/cheald/manticore). Along with this come a variety of HTTP configuration options:
 
 

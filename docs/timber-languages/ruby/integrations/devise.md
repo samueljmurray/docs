@@ -1,3 +1,5 @@
+# Devise
+
 The [Timber for Ruby](https://github.com/timberio/timber-ruby) [Devise](https://github.com/plataformatec/devise) integration adds user context to your application automatically. Making it easy to quickly diagnose and resolve user reported issues.
 
 1. [**Structured data**](#structured-data)

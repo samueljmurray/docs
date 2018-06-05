@@ -12,6 +12,8 @@ items:
   - title: Github Repo
     url: https://github.com/timberio/timber-ruby
 ---
+# Ruby
+
 Timber for Ruby is a drop in replacement for your Ruby logger that
 [unobtrusively augments](https://timber.io/concepts/structuring-through-augmentation) your
 logs with [rich metadata and context](https://timber.io/concepts/metadata-context-and-events)

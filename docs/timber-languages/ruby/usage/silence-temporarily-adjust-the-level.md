@@ -1,6 +1,8 @@
 ---
 title: Silence & Temporarily Adjust The Level
 ---
+# Silence & Temporarily Adjust The Level
+
 At times you may want to temporarily silence or adjust the log level.
 
 ## How to use it

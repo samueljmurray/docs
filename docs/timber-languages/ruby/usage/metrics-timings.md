@@ -1,6 +1,8 @@
 ---
 title: Metrics & Timings
 ---
+# Metrics & Timings
+
 Aggregates destroy details, events tell stories. With Timber, logging metrics and timings is simply [logging an event](/languages/ruby/usage/custom-events). Timber is based on modern big-data principles and can aggregate inordinately large data sets in seconds. Logging events (raw data as it exists), gives you the flexibility in the future to segment and aggregate your data any way you see fit. This is superior to choosing specific paradigms before hand, when you are unsure how you'll need to use your data in the future.
 
 

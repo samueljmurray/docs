@@ -1,3 +1,5 @@
+# Heroku Dyno Runtime Metrics
+
 When you enable the [Heroku log runtime metrics feature](https://devcenter.heroku.com/articles/log-runtime-metrics) for your Heroku application you'll automatically get dyno resource usage samples. Timber classifies these as normalized events across all platforms. Specifically, you'll get:
 
 |You'll Get|

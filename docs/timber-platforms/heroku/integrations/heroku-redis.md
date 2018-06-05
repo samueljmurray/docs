@@ -1,3 +1,5 @@
+# Heroku Redis
+
 If you're using [Heroku redis](https://www.heroku.com/redis), it will log various events in your log event stream. Timber recognizes these events, structures them, and classifies them as:
 
 |You'll Get|

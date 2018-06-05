@@ -1,3 +1,5 @@
+# Pheonix
+
 The [Timber for Elixir](https://github.com/timberio/timber-ruby) [Phoenix](http://phoenixframework.org/) integration structures and enhances your Phoenix logs automatically.
 
 1. [Structured data](#structured-data)

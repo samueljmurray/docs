@@ -2,6 +2,8 @@
 table_of_contents:
   page: false
 ---
+# AWS Lambda Installation
+
 [Create a new lambda function](https://console.aws.amazon.com/lambda/home?region=us-east-1#/create) and follow one of the instruction sets.
 
 1. Select *Author from scratch*, fill out the form with the following, and click *Create function*: **<small style="float: right"><a href="http://res.cloudinary.com/timber/image/upload/v1527708912/aws-lambda-creation_l5zqqv.gif" target="_blank" class="view-example">view example</a></small>**

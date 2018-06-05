@@ -1,6 +1,8 @@
 ---
 title: Parsing & Special Fields
 ---
+# Parsing & Special Fields
+
 The Timber logstash output plugin intelligently transforms Logstash events to conform to the [Timber JSON schema](/concepts/log-event-json-schema). If you aren't familiar with our JSON schema and it's purpose, please read the [log JSON schema document](/concepts/log-event-json-schema). During this process Timber will look for certain fields to transform the event properly.
 
 ## How it works

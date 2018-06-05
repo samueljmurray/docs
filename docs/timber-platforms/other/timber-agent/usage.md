@@ -1,3 +1,5 @@
+# Usage
+
 Run `timber-agent help` to see the available options:
 
 ```

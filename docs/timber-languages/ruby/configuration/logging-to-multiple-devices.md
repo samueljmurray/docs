@@ -1,3 +1,5 @@
+# Logging to Multiple Devices
+
 Timber has built in support for logging to a file, STDOUT, or any IO device, as well as loggin to multiple devices simultaneously.
 
 

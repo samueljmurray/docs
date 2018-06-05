@@ -1,3 +1,5 @@
+# Heroku
+
 Timber parses the [Heroku log format](https://devcenter.heroku.com/articles/log-drains#https-drains) which is outlined as following the [Syslog 5424 specification](https://www.ietf.org/rfc/rfc5424.txt). In practice these messages look like:
 
 ```

@@ -1,3 +1,5 @@
+# Release Context
+
 *Note: This context is automatically added to your logs through our [libraries](/languages)*
 
 The `release` context adds data about the current release (or deployment) of your application.

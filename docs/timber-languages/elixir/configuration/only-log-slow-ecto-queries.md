@@ -1,3 +1,5 @@
+# Only Log Slow Ecto Queries
+
 Logging SQL queries can be useful but noisy. To reduce the volume of SQL queries, you can limit the queries logged to those that surpass your time threshold.
 
 

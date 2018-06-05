@@ -1,3 +1,5 @@
+# Heroku Platform Errors
+
 Heroku logs various [platform errors](https://devcenter.heroku.com/articles/error-codes) in your log stream. Timber recognizes these events, parses them, structures them, and classifies them as errors. You'll get:
 
 |You'll Get|

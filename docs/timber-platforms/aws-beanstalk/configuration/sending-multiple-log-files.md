@@ -1,3 +1,5 @@
+# Sending Multiple Log Files
+
 Depending on your Elastic Beanstalk stack, you'll want to track different log files. As a general rule, we do not recommend sending every log file to Timber as it can be noisy and unhelpful. Below is a list of common log files that are tracked in an Elastic Beanstalk environment.
 
 

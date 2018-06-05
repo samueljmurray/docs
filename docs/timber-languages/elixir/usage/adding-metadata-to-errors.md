@@ -1,3 +1,5 @@
+# Adding Metadata to Errors
+
 By default, Timber will capture and structure all of your errors and exceptions, there
 is nothing additional you need to do. You'll get the exception `message`, `name`, and `backtrace`.
 But, in many cases you need additional context and data. Timber supports additional fields

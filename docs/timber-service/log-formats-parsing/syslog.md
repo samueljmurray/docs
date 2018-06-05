@@ -1,3 +1,5 @@
+# Syslog
+
 Timber recognizes the formats outlines in the [Syslog 5424](https://www.ietf.org/rfc/rfc5424.txt) and [Syslog 3164](https://www.ietf.org/rfc/rfc3164.txt) specifications. In practice these messages look like:
 
 ```

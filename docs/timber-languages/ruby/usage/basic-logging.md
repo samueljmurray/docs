@@ -1,3 +1,5 @@
+# Basic Logging
+
 Use the [`Timber::Logger`](http://www.rubydoc.info/github/timberio/timber-ruby/Timber/Logger) just like you would the standard Ruby [`::Logger`](https://ruby-doc.org/stdlib-2.4.0/libdoc/logger/rdoc/Logger.html).
 
 

@@ -1,3 +1,5 @@
+# Capture User Context
+
 Capturing `user context` is a powerful feature that allows you to associate logs with users in your application. This is great for support as you can [quickly narrow logs to a specific user](/app/console/tail-a-user), making it easy to identify user reported issues.
 
 

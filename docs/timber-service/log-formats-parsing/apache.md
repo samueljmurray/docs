@@ -1,3 +1,5 @@
+# Apache
+
 Timber parses the [traditional Apache HTTP server log formats](https://httpd.apache.org/docs/2.4/logs.html#page-header), both the access and error log formats. In practice they look like this:
 
 Access logs:

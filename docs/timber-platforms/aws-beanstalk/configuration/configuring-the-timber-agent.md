@@ -1,3 +1,5 @@
+# Configuring the Timber Agent
+
 [The Timber agent](/platforms/other/agent) is what powers Elastic Beanstlak log delivery in the background. As a result, most confiration of Timber in the ElasticBeanstalk environment is done by [configuring the Timber agent](/platforms/other/agent/configuration-file).
 
 

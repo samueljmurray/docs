@@ -1,3 +1,5 @@
+# System
+
 The system integration captures system level context upon initialization, augmenting your logs with structured data like `hostname`, `ip`, `pid`, and more. It uses native Ruby libraries to capture this data.
 
 1. [**Structured data**](#structured-data)

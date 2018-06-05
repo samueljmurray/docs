@@ -1,6 +1,8 @@
 ---
 description: Best practices for how to create custom log statement events.
 ---
+# When to Use Custom Events
+
 Custom events are powerful additions to your log statements that increase their usability. This best practices guide walks you through how to create custom events that will boost your productivity with Timber. If you need a refresher on Timber's "event" concept, you can check out our ["Metadata, Context, and Events"](/concepts/metadata-context-and-events#events) document.
 
 If you think of your application, you probably have plenty of events that occur. At Timber, we think in terms of "business" and "operational" events. Business events directly relate to what your application means to users, and operational events relate to how the application delivers features.

@@ -3,6 +3,8 @@ title: Installing Syslog Integration
 installation_instructions:
   platform: syslog
 ---
+# Syslog Install
+
 These are the general instructions for forwarding syslog messages to Timber. We also provide detailed instructions for installing with [rsyslog] and [syslog-ng].
 
 Timber's syslog collection service is available at `logs.timber.io` on port `6514`.
@@ -42,7 +44,7 @@ website]. The intermediate certificate is the "RapidSSL RSA CA 2018" certificate
 with serial number `08:A5:A2:46:CD:4B:5C:8C:83:D7:02:B4:BB:AB:53:49`. The root
 certificate is the "DigiCert Global Root CA" with serial number
 `08:3B:E0:56:90:42:46:B1:A1:75:6A:C9:59:91:C7:4A`.
-  
+
 DigiCert provides certificates in the DER format. To convert to PEM, use `openssl`:
 
 ```

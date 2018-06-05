@@ -1,3 +1,5 @@
+# Tracking Background Jobs
+
 *Note: This tip refers to traditional background jobs backed by a queue. For native Elixir
 processes we capture the `context.runtime.vm_pid` automatically. Calls like `spawn/1` and
 `Task.async/1` will automatially have their `pid` included in the context.*

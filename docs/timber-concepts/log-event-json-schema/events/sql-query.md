@@ -1,3 +1,5 @@
+# SQL Query Event
+
 *Note: Our [libraries](/languages) integrate with frameworks and libraries to log this event automatically.*
 
 The `sql_query` event resresents a SQL query being issued from within your application.

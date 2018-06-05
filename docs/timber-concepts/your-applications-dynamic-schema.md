@@ -2,6 +2,8 @@
 title: Your Application's Dynamic Schema
 description: Each application within Timber has it's own dynamic schema.
 ---
+# Your Application's Dynamic Schema
+
 Each application within Timber has it's own dynamic schema. Here's a short list that describes it's behaviour:
 
 1. Your schema is maintained on the fly, as data is received.
