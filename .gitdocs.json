@@ -1,6 +1,5 @@
 {
   "name": "Timber Documentation",
-  "root": "docs",
   "domain": "https://docs.timber.io",
   "crawlable": false,
   "logo": "logo.png",
