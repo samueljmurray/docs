@@ -1,6 +1,6 @@
 ---
 title: Docker Logging Driver
-description: Use our Docker logging driver to ship your Docker container logs to your Timber account.
+description: Ship your container logs to Timber with only the Docker daemon and some configuration.
 source: https://github.com/timberio/timber-docker-logging-driver.git
 source_type: git
 ---
