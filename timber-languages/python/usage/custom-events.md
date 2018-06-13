@@ -46,7 +46,7 @@ When this event is received by the Timber service we'll define a namespaced sche
 
 ### Related Docs
 
-1. [**When to use custom events?**](/guides/when-to-use-custom-events)
-2. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
-3. [**Your application's dynamic schema**](/concepts/application-schema)
-4. [**Service Limits**](/concepts/service-limits)
+1. [**When to use custom events?**](/timber-guides/when-to-use-custom-events)
+2. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+3. [**Your application's dynamic schema**](/timber-concepts/application-schema)
+4. [**Service Limits**](/timber-concepts/service-limits)

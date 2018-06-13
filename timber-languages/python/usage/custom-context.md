@@ -56,6 +56,6 @@ When your logs are received by the Timber service, they'll have the context incl
 
 ### Related Docs
 
-1. [**Metadata, context, and events**](/concepts/metadata-context-and-events)
-2. [**Your application's dynamic schema**](/concepts/application-schema)
-3. [**Service Limits**](/concepts/service-limits)
+1. [**Metadata, context, and events**](/timber-concepts/metadata-context-and-events)
+2. [**Your application's dynamic schema**](/timber-concepts/application-schema)
+3. [**Service Limits**](/timber-concepts/service-limits)

@@ -22,4 +22,4 @@ Adjusting the log level in Python is not specfic to `TimberHandler`, like any ot
 timber_handler = timber.TimberHandler(api_key='...', level=logging.WARNING)
 ```
 
-We encourage standard / traditional log messages for non-meaningful events. And because Timber [_augments_](/concepts/structuring-through-augmentation) your logs with metadata, you don't have to worry about making every log structured!
+We encourage standard / traditional log messages for non-meaningful events. And because Timber [_augments_](/timber-concepts/structuring-through-augmentation) your logs with metadata, you don't have to worry about making every log structured!

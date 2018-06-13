@@ -46,22 +46,9 @@ timber_handler = timber.TimberHandler(api_key='...', raise_exceptions=True)
 
 ### What to do with the logs?
 
-**NEED TO CHANGE THIS**
+Look for the term `Exception`. Specficially, you should see your stack and your error message.
 
-Look for the term `error`. Specifically a log that looks like this:
-
-```
-HTTP request ... received response ...
-```
-
-If you do not see any errors, but instead you see:
-
-```
-HTTP request ... received response 200
-```
-
-Then your application is delivering logs appropriately.
-
+If you do not see any errors, your application should be delivering logs appropriately.
 
 ## What if none of this resolved my issue?
 

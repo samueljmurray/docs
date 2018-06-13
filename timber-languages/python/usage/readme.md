@@ -10,7 +10,6 @@ Beyond your traditional logging statements, Timber offers a variety of ways to i
 
 ### Pro-tips 💪
 
-1. [**Adding metadata to errors**](adding-metadata-to-errors)
-2. [**Silence Noisy Requests**](/languages/python/configuration/silence-noisy-requests)
-3. [**Buffer Capacity & Flush Interval**](/languages/python/configuration/buffer-capacity-and-flush-interval)
-4. [**Raise Exceptions**](/languages/python/configuration/raise-exceptions)
+1. [**Silence Noisy Requests**](/timber-languages/python/configuration/silence-noisy-modules)
+2. [**Buffer Capacity & Flush Interval**](/timber-languages/python/configuration/buffer-capacity-and-flush-interval)
+3. [**Raise Exceptions**](/timber-languages/python/configuration/raise-exceptions)
