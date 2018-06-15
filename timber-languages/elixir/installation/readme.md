@@ -1,5 +1,3 @@
-# Elixir Installation
-
 1. In your `Mix.exs` file, *add* the `timber` dependency: <small style="float: right" class="platform-alt"><a href="/platforms">prefer to integrate with your platform instead?</a></small>
 
    ```elixir
