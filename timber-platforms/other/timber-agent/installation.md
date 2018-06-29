@@ -42,4 +42,4 @@
     /opt/timber-agent/bin/timber-agent timber-agent capture-files
     ```
 
-    Checkout the [usage guide](/platforms/other/agent/usage) as well as the [startup scripts](https://github.com/timberio/agent/tree/master/support/scripts/startup) to assist with starting and stopping the agent.
+    Checkout the [usage guide](/platforms/other/timber-agent/usage) as well as the [startup scripts](https://github.com/timberio/agent/tree/master/support/scripts/startup) to assist with starting and stopping the agent.
