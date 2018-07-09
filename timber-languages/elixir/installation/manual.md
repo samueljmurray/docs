@@ -1,4 +1,4 @@
-*⚠ We highly recommend using [the Elixir installer](/languages/elixir/installation) to get Timber setup in your Elixir application. If that is not possible, please follow the instructions below.*
+*⚠ We highly recommend using [the Elixir installer](/languages/elixir/installation/automatic) to get Timber setup in your Elixir application. If that is not possible, please follow the instructions below.*
 
 ---
 
