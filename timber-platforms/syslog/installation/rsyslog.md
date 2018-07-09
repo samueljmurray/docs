@@ -1,5 +1,4 @@
 ---
-title: Forwarding from rsyslog to Timber
 installation_instructions:
   platform: syslog
   subplatform: rsyslog

@@ -1,5 +1,5 @@
 ---
-title: Forwarding from syslog-ng to Timber
+title: Syslog-ng
 installation_instructions:
   platform: syslog
   subplatform: syslog-ng
