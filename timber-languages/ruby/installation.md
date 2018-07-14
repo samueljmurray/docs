@@ -1,4 +1,3 @@
-# Ruby Installation
 
 1. In your `Gemfile`, *add* the `timber` gem: <small style="float: right" class="platform-alt"><a href="/platforms">prefer to integrate with your platform instead?</a></small>
 
