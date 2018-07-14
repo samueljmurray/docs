@@ -4,7 +4,7 @@
 
 This document assumes a basic understanding of how Elixir application logs flow from an application to a service using STDOUT, HTTP, or a file. To get started, please follow the steps below:
 
-1. Grab a coffee. Elixir is welcomely explicit (we love Elixir and use it internally at Timber), so the manual installation procees requires more steps.
+1. Grab a coffee. Elixir is welcomely explicit (we love Elixir and use it internally at Timber), so the manual installation process requires more steps.
 
 2. In your `Mix.exs` file, *add* the `timber` dependency:
 
