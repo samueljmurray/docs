@@ -1,5 +1,10 @@
-# FluentD Installation
-
+---
+title: Installation
+related:
+- /app/applications/obtaining-your-api-key
+- /languages
+- troubleshooting
+---
 1. In your `shell` install the [Timber Fluentd plugin](https://github.com/timberio/fluent-plugin-timber) by *executing*:
 
    ```shell
@@ -20,11 +25,3 @@
    ```
 
 3. *Restart* Fluentd
-
----
-
-### Related docs
-
-1. [**Obtaining your API key**](/app/applications/obtaining-your-api-key)
-2. [**Timber for languages**](/languages)
-3. [**Troubleshooting**](troubleshooting)

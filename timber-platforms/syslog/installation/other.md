@@ -1,4 +1,6 @@
-# Syslog Install
+---
+title: Syslog Installation
+---
 
 These are the general instructions for forwarding syslog messages to Timber. We also provide detailed instructions for installing with [rsyslog] and [syslog-ng].
 

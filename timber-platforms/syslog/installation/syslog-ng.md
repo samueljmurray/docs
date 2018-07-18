@@ -31,30 +31,30 @@ x509 -inform der -outform pem -in
    /etc/syslog-ng/keys/ca.d/351323f.0`
 6. Copy the following into `/etc/syslog-ng/conf.d/timber.conf`, replacing the API key as appropriate:
 
-```
-destination d_timber {
-  syslog(
-    "logs.timber.io"
-    transport("tls")
-    port(6514)
-    tls(
-      ca-dir("/etc/syslog-ng/ca.d")
-      cipher-suites("ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256")
-      trusted-dn("*, CN=*.timber.io")
-    )
-  );
-};
+  ```
+  destination d_timber {
+    syslog(
+      "logs.timber.io"
+      transport("tls")
+      port(6514)
+      tls(
+        ca-dir("/etc/syslog-ng/ca.d")
+        cipher-suites("ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256")
+        trusted-dn("*, CN=*.timber.io")
+      )
+    );
+  };
 
-rewrite add_timber_api_key {
-  set("{{timber_api_key}}" value(".SDATA.authentication@51576.api_key"));
-};
+  rewrite add_timber_api_key {
+    set("{{timber_api_key}}" value(".SDATA.authentication@51576.api_key"));
+  };
 
-log {
-  source(s_src);
-  rewrite(add_timber_api_key);
-  destination(d_timber);
-};
-```
+  log {
+    source(s_src);
+    rewrite(add_timber_api_key);
+    destination(d_timber);
+  };
+  ```
 
 6. Now restart the `syslog-ng` service (usually `systemctl restart syslog-ng`)
 

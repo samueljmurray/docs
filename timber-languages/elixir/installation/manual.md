@@ -1,9 +1,3 @@
-*⚠ We highly recommend using [the Elixir installer](/languages/elixir/installation/automatic) to get Timber setup in your Elixir application. If that is not possible, please follow the instructions below.*
-
----
-
-This document assumes a basic understanding of how Elixir application logs flow from an application to a service using STDOUT, HTTP, or a file. To get started, please follow the steps below:
-
 1. Grab a coffee. Elixir is welcomely explicit (we love Elixir and use it internally at Timber), so the manual installation process requires more steps.
 
 2. In your `Mix.exs` file, *add* the `timber` dependency:
@@ -55,8 +49,8 @@ This document assumes a basic understanding of how Elixir application logs flow 
 
 5. Install the `Timber.Integrations`, skip any that you application does not use:
 
-   1. [`Phoenix` integration](/languages/elixir/integrations/phoenix#installation)
-   2. [`Plug` integration](/languages/elixir/integrations/plug#installation)
-   3. [`Ecto` integration](/languages/elixir/integrations/ecto#installation)
+   - [`Phoenix` integration](/languages/elixir/integrations/phoenix#installation)
+   - [`Plug` integration](/languages/elixir/integrations/plug#installation)
+   - [`Ecto` integration](/languages/elixir/integrations/ecto#installation)
  
 6. All done! Be sure to commit these changes and deploy.

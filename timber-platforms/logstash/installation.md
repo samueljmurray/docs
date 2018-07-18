@@ -1,5 +1,10 @@
-# Logstash Installation
-
+---
+title: Installation
+related:
+- /app/applications/obtaining-your-api-key
+- /languages
+- /platforms/logstash/troubleshooting
+---
 1. In your `shell` install the [Timber Logstash plugin](https://github.com/logstash-plugins/logstash-output-timber):
 
    ```shell
@@ -21,11 +26,3 @@
    ```shell
    service logstash restart
    ```
-
----
-
-### Related docs
-
-1. [**Obtaining your API key**](/app/applications/obtaining-your-api-key)
-2. [**Timber for languages**](/languages)
-3. [**Troubleshooting**](/platforms/logstash/troubleshooting)

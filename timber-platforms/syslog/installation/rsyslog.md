@@ -25,49 +25,49 @@ limit the messages that are forwarded with the action.
 4. Copy the following into `/etc/rsyslog.d/60-timber.conf`, replacing the API
    key as appropriate:
 
-```
-global(defaultNetstreamDriverCAFile="/etc/rsyslog.d/keys/ca.d/io.timber-wildcard.pem")
+  ```
+  global(defaultNetstreamDriverCAFile="/etc/rsyslog.d/keys/ca.d/io.timber-wildcard.pem")
 
-template(name="TimberFormat" type="list") {
-  constant(value="<")
-  property(name="pri")
-  constant(value=">")
-  constant(value="1")
-  constant(value=" ")
-  property(name="timestamp" dateFormat="rfc3339")
-  constant(value=" ")
-  property(name="hostname")
-  constant(value=" ")
-  property(name="app-name")
-  constant(value=" ")
-  property(name="procid")
-  constant(value=" ")
-  property(name="msgid")
-  constant(value=" ")
-  property(name="structured-data" regex.expression="[^-]" regex.nomatchmode="BLANK" regex.submatch="0")
-  constant(value="[authentication@51576 api_key=\"{{timber_api_key}}\"]")
-  constant(value=" ")
-  property(name="msg" droplastlf="on")
-}
+  template(name="TimberFormat" type="list") {
+    constant(value="<")
+    property(name="pri")
+    constant(value=">")
+    constant(value="1")
+    constant(value=" ")
+    property(name="timestamp" dateFormat="rfc3339")
+    constant(value=" ")
+    property(name="hostname")
+    constant(value=" ")
+    property(name="app-name")
+    constant(value=" ")
+    property(name="procid")
+    constant(value=" ")
+    property(name="msgid")
+    constant(value=" ")
+    property(name="structured-data" regex.expression="[^-]" regex.nomatchmode="BLANK" regex.submatch="0")
+    constant(value="[authentication@51576 api_key=\"{{timber_api_key}}\"]")
+    constant(value=" ")
+    property(name="msg" droplastlf="on")
+  }
 
-action(
-  type="omfwd"
-  protocol="tcp"
-  target="logs.timber-staging.io"
-  port="6514"
-  template="TimberFormat"
-  TCP_Framing="octet-counted"
-  StreamDriver="gtls"
-  StreamDriverMode="1"
-  StreamDriverAuthMode="x509/name"
-  StreamDriverPermittedPeers="*.timber.io"
-  queue.spoolDirectory="/var/spool/rsyslog"
-  queue.filename="timber"
-  queue.maxdiskspace="75m"
-  queue.type="LinkedList"
-  queue.saveonshutdown="on"
-)
-```
+  action(
+    type="omfwd"
+    protocol="tcp"
+    target="logs.timber-staging.io"
+    port="6514"
+    template="TimberFormat"
+    TCP_Framing="octet-counted"
+    StreamDriver="gtls"
+    StreamDriverMode="1"
+    StreamDriverAuthMode="x509/name"
+    StreamDriverPermittedPeers="*.timber.io"
+    queue.spoolDirectory="/var/spool/rsyslog"
+    queue.filename="timber"
+    queue.maxdiskspace="75m"
+    queue.type="LinkedList"
+    queue.saveonshutdown="on"
+  )
+  ```
 
 4. Now restart the `rsyslog` service (usually `systemctl restart rsyslog`)
 5. Your logs will be forwarded to Timber. You will need to update the Timber
