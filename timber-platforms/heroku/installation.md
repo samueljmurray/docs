@@ -5,6 +5,7 @@ related:
 - /platforms/heroku/configuration
 - /languages
 - /platforms/heroku/troubleshooting
+tags: platform
 ---
 1. In your `shell` *execute* the following command to add the Timber [log drain](https://devcenter.heroku.com/articles/log-drains):
 
