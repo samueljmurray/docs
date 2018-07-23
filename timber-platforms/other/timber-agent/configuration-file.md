@@ -86,3 +86,14 @@ When the Agent reads this configuration, it will start tailing `/var/log/yum.log
   If for some reason your system is incompatible or unreliable with file system events (for example, Docker on certain virtualization technologies has poor `inotify` compatiability), you should set `poll` to `true`.
 
   Defaults to `false`
+
+* ### `read_from_start` (boolean)
+
+  When a new log file is discovered the Agent defaults to tailing the file, processing and shipping only data written since the tailing began.
+
+  Setting this option to true will have the Agent read new log files from the beginning, shipping the entire contents of the file.
+
+  Log files already seen will either be read from their checkpoint stored in the Agent's state, or from the beginning if the Agent determines the file has been truncated. `read_from_start` does
+  not affect this logic for existing files.
+
+  Defaults to `false`
