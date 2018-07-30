@@ -1,7 +1,7 @@
 {
   "name": "Timber Documentation",
   "domain": "https://docs.timber.io",
-  "crawlable": false,
+  "crawlable": true,
   "logo": "logo.png",
   "languages": [
     "javascript",
@@ -12,11 +12,13 @@
     "diff",
     "ruby",
     "toml",
-    "text"
+    "text",
+    "python"
   ],
-  "header_links": [
-    { "title": "Back to Timber.io", "href": "https://timber.io" }
-  ],
+  "header_links": [{
+    "title": "Back to Timber.io",
+    "href": "https://timber.io"
+  }],
   "syntax": {
     "theme": "atom-one-light",
     "lineNumbers": true,
