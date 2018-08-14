@@ -5,7 +5,7 @@ related:
 - /platforms/linux/installation/systemd-linux/line-by-line-explanation
 - /platforms/linux/troubleshooting
 ---
-1. We support all Linux-based systems through the [Timber Agent](/platforms/other/agent) which collects logs from files on your server.
+1. We support all Linux-based systems through the [Timber Agent](/platforms/other/timber-agent) which collects logs from files on your server.
 
     For the majority of modern distributions, you can use the following shell script to install the agent on your machine. It assumes your system uses `systemd`. (Don't worry if you don't know what that means!)
 

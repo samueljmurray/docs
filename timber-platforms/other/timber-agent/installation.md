@@ -12,7 +12,7 @@
     * [NetBSD AMD64 latest](https://packages.timber.io/agent/0.x.x/netbsd-amd64/timber-agent-0.x.x-netbsd-amd64.tar.gz)
     * [OpenBSD AMD64 latest](https://packages.timber.io/agent/0.x.x/openbsd-amd64/timber-agent-0.x.x-openbsd-amd64.tar.gz)
 
-    All releases can be found [here](https://github.com/timberio/agent/releases). More special download links can be found [here](/platforms/other/agent/versioning).
+    All releases can be found [here](https://github.com/timberio/agent/releases). More special download links can be found [here](/platforms/other/timber-agent/versioning).
 
 2. Unpack the archive to a common location like `/opt`:
 

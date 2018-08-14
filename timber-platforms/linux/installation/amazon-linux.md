@@ -5,7 +5,7 @@ related:
 - /platforms/linux/installation/amazon-linux/line-by-line-explanation
 - /platforms/linux/troubleshooting
 ---
-1. *Execute* this shell script on the desired [Amazon Linux](https://aws.amazon.com/amazon-linux-ami/) server to install the [Timber Agent](/platforms/other/agent)
+1. *Execute* this shell script on the desired [Amazon Linux](https://aws.amazon.com/amazon-linux-ami/) server to install the [Timber Agent](/platforms/other/timber-agent)
 
     ```sh
     curl -o /opt/timber-agent.tar.gz https://packages.timber.io/agent/0.6.x/linux-amd64/timber-agent-0.6.x-linux-amd64.tar.gz
