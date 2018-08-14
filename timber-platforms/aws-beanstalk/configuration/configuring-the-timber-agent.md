@@ -1,11 +1,11 @@
 # Configuring the Timber Agent
 
-[The Timber agent](/platforms/other/agent) is what powers Elastic Beanstlak log delivery in the background. As a result, most confiration of Timber in the ElasticBeanstalk environment is done by [configuring the Timber agent](/platforms/other/agent/configuration-file).
+[The Timber agent](/platforms/other/timber-agent) is what powers Elastic Beanstlak log delivery in the background. As a result, most confiration of Timber in the ElasticBeanstalk environment is done by [configuring the Timber agent](/platforms/other/timber-agent/configuration-file).
 
 
 ## How to
 
-At the top of your Timber ebextension file you'll notice an entry for `/etc/timber.toml`. Simply modify the contents of this file based on the [available Timber agent configuration options](/platforms/other/agent/configuration-file):
+At the top of your Timber ebextension file you'll notice an entry for `/etc/timber.toml`. Simply modify the contents of this file based on the [available Timber agent configuration options](/platforms/other/timber-agent/configuration-file):
 
 ```toml
 ---
