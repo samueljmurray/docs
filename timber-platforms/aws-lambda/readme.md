@@ -1,6 +1,7 @@
 ---
 title: AWS Lambda
 description: Maximize the utlity of your Lambda logs using Timber's modern interface and features.
+tags: popular
 ---
 # AWS Lambda
 

@@ -1,6 +1,7 @@
 ---
 title: Syslog
 description: Use a collector for events forwarded from your syslog daemon or infrastructure.
+tags: popular
 ---
 # Syslog
 
