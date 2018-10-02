@@ -29,19 +29,19 @@
      config :logger,
        backends: [Timber.LoggerBackends.HTTP],
        utc_log: true
-     
+
      config :timber,
        api_key: "{{my-timber-api-key}}"
      ```
-   
+
    * To send your logs to `STDOUT` (you'll need to [integrate with the appropriate platform](/docs/platforms)), all the following in your `config/config.exs` file:
-   
+
      ```elixir
      # config/config.exs
      config :logger,
        backends: [:console],
        utc_log: true
-     
+
      config :logger, :console,
        format: {Timber.Formatter, :format},
        metadata: [:timber_context, :event, :application, :file, :function, :line, :module, :meta]
@@ -52,5 +52,5 @@
    - [`Phoenix` integration](/languages/elixir/integrations/phoenix#installation)
    - [`Plug` integration](/languages/elixir/integrations/plug#installation)
    - [`Ecto` integration](/languages/elixir/integrations/ecto#installation)
- 
+
 6. All done! Be sure to commit these changes and deploy.

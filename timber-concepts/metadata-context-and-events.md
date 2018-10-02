@@ -39,7 +39,7 @@ Context is like join data for your logs. It represents the environment at the ti
 
 ## Events
 
-Events are direct structured reprensentations of the log line in question. In it's most basic sense, your logs are a chronological representation of events happening in your application. Generally, each line represents an event, and an event contains structured data that describes itself. But as we all know, logs are not this clean. They are mix of actual events and messy debug statements. For this purpose, the `event` key in Timber is meant to represent those log lines that represent meaningful events in your application. The data contained in this key should be directly related to the log line in question, further describing the line in a structured way. Below is an example of an [`http_request` event](/concepts/log-event-json-schema/events/http-request-event):
+Events are direct structured representations of the log line in question. In it's most basic sense, your logs are a chronological representation of events happening in your application. Generally, each line represents an event, and an event contains structured data that describes itself. But as we all know, logs are not this clean. They are mix of actual events and messy debug statements. For this purpose, the `event` key in Timber is meant to represent those log lines that represent meaningful events in your application. The data contained in this key should be directly related to the log line in question, further describing the line in a structured way. Below is an example of an [`http_request` event](/concepts/log-event-json-schema/events/http-request-event):
 
 ```json
 {

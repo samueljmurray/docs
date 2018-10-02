@@ -17,7 +17,7 @@ limit the messages that are forwarded with the action.
    `rsyslog-gnutls` package using `apt-get install rsyslog-gnutls`. The package
    and method to do this will vary based on your distribution.
 2. Create the directory `/etc/ryslog.d/keys/ca.d`; you will place the Timber
-   public certificate in this file (the connection effecitvely uses certificate
+   public certificate in this file (the connection effectively uses certificate
    pinning)
 3. Download the Timber.io public certificate to
    `/etc/rsyslog.d/keys/ca.d/io.timber-wildcard.pem` from

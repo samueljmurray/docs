@@ -45,5 +45,5 @@ with [`Timber.Config.http_body_size_limit/0`](https://hexdocs.pm/timber/Timber.C
 
 1. [Search it](/app/console/searching) with queries like: `http_request.service_name:stripe`
 2. [Alert on it](/app/console/alerts) with threshold based alerts
-3. [View this log's metadata in the console](/app/console/view-metdata-and-context)
+3. [View this log's metadata in the console](/app/console/view-a-logs-metadata-context)
 4. ...read more in our [docs](/languages/elixir/usage/tracking-background-jobs-and-tasks)

@@ -6,7 +6,7 @@ description: Methods to reduce cost and increase the effectiveness of your logs.
 Optimizing your log data usage not only reduces cost, but also increases the effectiveness of your logs by eliminating noise. Because logs come in a variety of shapes and sizes, we recommend the following methods, they are ordered by the least likely to reduce the log quality:
 
 1. [Silence noisy endpoints](#silence-noisy-endpoints)
-2. [Silence noisy logs](#slience-noisy-logs)
+2. [Silence noisy logs](#silence-noisy-logs)
 3. [Reduce structured data](#reduce-structured-data)
 
 ## Silence noisy endpoints

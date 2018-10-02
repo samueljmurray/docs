@@ -36,7 +36,7 @@ When the Agent reads this configuration, it will start tailing `/var/log/yum.log
 
   By default, the Timber Agent will check whether it is running on an AWS EC2 instance. If it is, it will pull down data about the instance from the metadata store and set it as context under the `context.platform.aws_ec2` key.
 
-  If you would like to disable this beahvior, set `disable_ec2_metadata` to `true`.
+  If you would like to disable this behavior, set `disable_ec2_metadata` to `true`.
 
   Defaults to `false`
 
@@ -83,7 +83,7 @@ When the Agent reads this configuration, it will start tailing `/var/log/yum.log
 
   If you set `poll` to `true`, the Agent will instead read the file on a regular basis to check for changes.
 
-  If for some reason your system is incompatible or unreliable with file system events (for example, Docker on certain virtualization technologies has poor `inotify` compatiability), you should set `poll` to `true`.
+  If for some reason your system is incompatible or unreliable with file system events (for example, Docker on certain virtualization technologies has poor `inotify` compatibility), you should set `poll` to `true`.
 
   Defaults to `false`
 

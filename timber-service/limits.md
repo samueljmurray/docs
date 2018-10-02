@@ -27,7 +27,7 @@ The Timber service imposes limits to protect from abuse and ensure working order
 
 ### Application schema limits
 
-If you aren't familiar with the applications within Timber and how Timber maintains it's schemaa, please read our [application schema document](/concepts/application-schema). Timber imposes the follow limits to _each_ application's schema:
+If you aren't familiar with the applications within Timber and how Timber maintains it's schema, please read our [application schema document](/concepts/application-schema). Timber imposes the follow limits to _each_ application's schema:
 
 1. A maximum of `300` fields in the `event.custom` namespace.
 2. A maximum `50` fields in the `context.custom` namespace.

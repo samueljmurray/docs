@@ -2,10 +2,10 @@
 
 *Note: This tip refers to traditional background jobs backed by a queue. For native Elixir
 processes we capture the `context.runtime.vm_pid` automatically. Calls like `spawn/1` and
-`Task.async/1` will automatially have their `pid` included in the context.*
+`Task.async/1` will automatically have their `pid` included in the context.*
 
 For traditional background jobs backed by a queue you'll want to capture relevant
-job context. This allows you to segement logs by specific jobs, making it easy to debug and monitor your job executions. The most important attribute to capture is the `id`:
+job context. This allows you to segment logs by specific jobs, making it easy to debug and monitor your job executions. The most important attribute to capture is the `id`:
 
 
 ## How to use it

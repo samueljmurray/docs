@@ -4,7 +4,7 @@ The versioning for the Timber Agent follows the [Semantic Versioning 2.0.0](http
 
 - Patch version changes after 1.0.0 will be backwards compatible bug fixes.
 - Minor version changes after 1.0.0 will be backwards compatible but may include new features.
-- Major version changes after 1.0.0 will break backdward compatibility and may require changes to your configuration.
+- Major version changes after 1.0.0 will break backwards compatibility and may require changes to your configuration.
 
 This should help you upgrade to new versions of the agent safely. You can always check the agent's [CHANGELOG](https://github.com/timberio/agent/blob/master/CHANGELOG.md) for an overview of what has changed in each version.
 

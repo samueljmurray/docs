@@ -38,7 +38,7 @@ If the connection does not send new data for 3 seconds, the connection will be c
 
 If an event ends in a new line (either `\n` or `\r\n`), Timber will remove the
 characters during processing. We have deviated from the published standard here
-for practical reasons of dipslaying the logs. In most circumstances, the
+for practical reasons of displaying the logs. In most circumstances, the
 terminal new line is added in error by the daemon (for example, `syslog-ng`) and
 not intentionally by the user.
 

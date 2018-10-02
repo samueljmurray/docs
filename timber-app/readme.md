@@ -8,7 +8,7 @@ items_append:
 ---
 # Timber App
 
-The Timber application is a beautiful modern utility for viewing, [searching](console/searching), [inspecting](console/view-metdata-and-context), [alerting](alerts), and using your logs in a variety of ways.
+The Timber application is a beautiful modern utility for viewing, [searching](console/searching), [inspecting](console/view-a-logs-metadata-context), [alerting](alerts), and using your logs in a variety of ways.
 
 ## Demo
 

@@ -55,7 +55,7 @@ By using our [libraries](/languages) you can automatically enhance and augment y
 
 ## Setting Timber schema fields within Logstash
 
-We've provided the `timber` field to faciliate this. This field _must_ be a map and it _must_ conform to the [Timber JSON schema](https://github.com/timberio/log-event-json-schema).
+We've provided the `timber` field to facilitate this. This field _must_ be a map and it _must_ conform to the [Timber JSON schema](https://github.com/timberio/log-event-json-schema).
 
 For example:
 

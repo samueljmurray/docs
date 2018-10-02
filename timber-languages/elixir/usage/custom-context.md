@@ -1,6 +1,6 @@
 # Custom Context
 
-Custom contexts allow you to extend beyond contexts already defined in the [`Timber.Contexts`](https://hexdocs.pm/timber/Timber.Contexts.html#content) namespace. If you aren't sure what context is, please read the ["Metdata, Context, and Events" doc](/concepts/metadata-context-and-events). The [How it works](#how-it-works) section below also expands on this concept.
+Custom contexts allow you to extend beyond contexts already defined in the [`Timber.Contexts`](https://hexdocs.pm/timber/Timber.Contexts.html#content) namespace. If you aren't sure what context is, please read the ["Metadata, Context, and Events" doc](/concepts/metadata-context-and-events). The [How it works](#how-it-works) section below also expands on this concept.
 
 
 ## How to use it
@@ -11,7 +11,7 @@ Logger.info("My log message")
 ```
 
 1. [Search it](/app/console/searching) with queries like: `build.version:1.0.0`
-2. [View this context when viewing a log's metadata](/app/console/view-metdata-and-context)
+2. [View this context when viewing a log's metadata](/app/console/view-a-logs-metadata-context)
 
 
 ## How it works
