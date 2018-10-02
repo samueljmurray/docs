@@ -11,7 +11,7 @@ Timber's billing plans are publicly available on our [pricing page](/pricing). E
 
 ## Billing periods
 
-Timber billing periods operate on a 30 day cycle, starting with the day the plan was activated. For example, if you upgraded to the 250gb plan on Oct 13, your billing period would start on October 13 and end on November 11. Unless you're [in a trail](#trials), you will be billed at the beginnning of your billing period.
+Timber billing periods operate on a 30 day cycle, starting with the day the plan was activated. For example, if you upgraded to the 250gb plan on Oct 13, your billing period would start on October 13 and end on November 11. Unless you're [in a trail](#trials), you will be billed at the beginning of your billing period.
 
 ## Trials
 
@@ -19,7 +19,7 @@ The first time you upgrade to a paid plan you will enter a 15 day trial period. 
 
 ## Upgrades & downgrades
 
-You are free to upgrade and downgrade your account as much as you'd like. As noted in the [billing periods](#billing-periods) section, you will be billed at the beginning of your billing period. Changing plans will pro-rate your new
+You are free to upgrade and downgrade your account as much as you'd like. As noted in the [billing periods](#billing-periods) section, you will be billed at the beginning of your billing period. Changing plans will pro-rate your new plan.
 
 ## Usage calculation
 
@@ -29,7 +29,7 @@ For example, if you send a request to `[POST] https://timber.io/frames`, and the
 
 ## Usage overages
 
-Each [billing plan](#billing-plans) defines a [billing period](#billing-periods) limit. This is the total amount of data you can send within a single billing period. In an effort to be customer friendly, Timber allows customers to send up to 120% of their billing period before denying additional data. This allows for ocassional and unexpected overages without interupting service. Once your account reaches 120% of the allowed usage, Timber will deny new data until you upgrade to a larger plan. Timber does not impose daily limits, the plan limit is the cumulative amount of data used since your billing period started.
+Each [billing plan](#billing-plans) defines a [billing period](#billing-periods) limit. This is the total amount of data you can send within a single billing period. In an effort to be customer friendly, Timber allows customers to send up to 120% of their billing period before denying additional data. This allows for occasional and unexpected overages without interrupting service. Once your account reaches 120% of the allowed usage, Timber will deny new data until you upgrade to a larger plan. Timber does not impose daily limits, the plan limit is the cumulative amount of data used since your billing period started.
 
 ## Cancellations
 

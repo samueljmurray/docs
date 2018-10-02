@@ -30,7 +30,7 @@ logger.info("Credit card charged", credit_card_charge: {amount: 123.23})
 
 1. [Search it](/app/console/searching) with queries like: `background_job.time_ms:>500`
 2. [Alert on it](/app/console/alerts) with threshold based alerts
-3. [View this log's metadata in the console](/app/console/view-metdata-and-context)
+3. [View this log's metadata in the console](/app/console/view-a-logs-metadata-context)
 
 ---
 

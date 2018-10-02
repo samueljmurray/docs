@@ -20,7 +20,7 @@ For example, an `R14 Memory Quota Exceeded` error would be logged like this:
 2011-05-03T17:40:11+00:00 heroku[worker.1]: Error R14 (Memory quota exceeded)
 ```
 
-Without a logging system these errors would unknowingly happen. Timber reocgnizes these events and transforms them into [error events](). This makes it easy to report and alert on these events:
+Without a logging system these errors would unknowingly happen. Timber recognizes these events and transforms them into [error events](). This makes it easy to report and alert on these events:
 
 ```json
 {

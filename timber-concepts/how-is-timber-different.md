@@ -12,4 +12,4 @@ Timber takes a radically different approach to logging. Timber believes the util
 5. [APM style dashboards](https://github.com/timberio/feature-requests/issues/8)
 6. ...[and more](https://github.com/timberio/feature-requests/issues)
 
-This enables Timber to break the traditional logging constraints, allowing it to think beyond text searching and offer features that bleed into other segements of application monitoring. The benefit to you is a single oepn source of data, less context switching, higher productivity, less lock-in, cost savings, and more!
+This enables Timber to break the traditional logging constraints, allowing it to think beyond text searching and offer features that bleed into other segments of application monitoring. The benefit to you is a single open source of data, less context switching, higher productivity, less lock-in, cost savings, and more!

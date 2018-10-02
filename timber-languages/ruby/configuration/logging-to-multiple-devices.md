@@ -1,6 +1,6 @@
 # Logging to Multiple Devices
 
-Timber has built in support for logging to a file, STDOUT, or any IO device, as well as loggin to multiple devices simultaneously.
+Timber has built in support for logging to a file, STDOUT, or any IO device, as well as logging to multiple devices simultaneously.
 
 
 ## How to use it
@@ -8,7 +8,7 @@ Timber has built in support for logging to a file, STDOUT, or any IO device, as 
 ### Example 1: Logging to Timber & a file
 
 ```ruby
-# Update your existing Timber::Logger instantation in
+# Update your existing Timber::Logger instantiation in
 # config/environments/production.rb
 
 http_device = Timber::LogDevices::HTTP.new("{{my-timber-api-key}}")
@@ -21,7 +21,7 @@ Timber accepts a file `Logger` object because it gives you complete control over
 ### Example 2: Logging to Timber & STDOUT
 
 ```ruby
-# Update your existing Timber::Logger instantation in
+# Update your existing Timber::Logger instantiation in
 # config/environments/production.rb
 
 http_device = Timber::LogDevices::HTTP.new("{{my-timber-api-key}}")

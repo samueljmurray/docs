@@ -64,7 +64,7 @@ Timber.config.integrations.rack.user_context.disable = true
 
 Each is described below:
 
-1. `error_event` disables the structuring of exceptions. By disablign this integration exceptions will appear as multi-line raw text logs.
+1. `error_event` disables the structuring of exceptions. By disabling this integration exceptions will appear as multi-line raw text logs.
 2. `http_context` disables setting the [`http` context](/concepts/log-event-json-schema/context/http-context). It is highly recommended to avoid this, as it provides the mens to perform very useful features, like [tracing HTTP requests](/app/console/trace-http-requests).
 3. `http_event` disables the structuring of [`http_request`](/concepts/log-event-json-schema/events/http-request-event) and [`http_response`](/concepts/log-event-json-schema/events/http-response-event) events.
 4. `session_context` disables setting the [`session` context](/concepts/log-event-json-schema/context/session-context).

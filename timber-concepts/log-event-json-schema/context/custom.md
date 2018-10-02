@@ -28,7 +28,7 @@ Notice the `application` key. This is your context type. Each custom context mus
 1. [Search it](/app/console/searching) with queries like: `application.id:1234` or `has:application.id`
 2. [Alert on it](/app/console/alerts) with threshold based alerts
 3. [Graph & visualize it](/app/console/graphing)
-4. [Access this data by viewing the log's metadata](/app/console/view-metdata-and-context)
+4. [Access this data by viewing the log's metadata](/app/console/view-a-logs-metadata-context)
 
 ---
 

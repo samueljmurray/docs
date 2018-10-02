@@ -24,4 +24,4 @@ This integration is installed automatically upon initialization. There is nothin
 
 ## Disable
 
-Currently this integration cannot be disabled due to the [very basic nature of the data it captures](/concepts/log-event-json-schema/context/system-context). If you have a specific usecase that requires this, please [contact support](mailto:support@timber.io) as we'd be happy to add this option for you.
+Currently this integration cannot be disabled due to the [very basic nature of the data it captures](/concepts/log-event-json-schema/context/system-context). If you have a specific use case that requires this, please [contact support](mailto:support@timber.io) as we'd be happy to add this option for you.

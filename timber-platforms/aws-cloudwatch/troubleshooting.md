@@ -24,4 +24,4 @@
 
 1. Navigate to your Timber log delivery lambda function.
 2. Click the `Configure` tab and note the `Role` settings. Specifically the name of the role being used.
-3. Ensure that the role has basic lambda execution premissions. Providing a deep dive into AWS Iam extends beyond the scope of Timber. We recommend [reading this AWS support document](http://docs.aws.amazon.com/lambda/latest/dg/with-s3-example-create-iam-role.html) which explains how to setup an Iam execution role for your lambda function. Fortunately they make it fairly easy.
+3. Ensure that the role has basic lambda execution permissions. Providing a deep dive into AWS Iam extends beyond the scope of Timber. We recommend [reading this AWS support document](http://docs.aws.amazon.com/lambda/latest/dg/with-s3-example-create-iam-role.html) which explains how to setup an Iam execution role for your lambda function. Fortunately they make it fairly easy.

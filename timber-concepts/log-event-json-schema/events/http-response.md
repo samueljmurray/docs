@@ -2,7 +2,7 @@
 
 *Note: Our [libraries](/languages) integrate with frameworks and libraries to log this event automatically.*
 
-The `http_response` event represnts the response of a HTTP request.
+The `http_response` event represents the response of a HTTP request.
 
 ## Example JSON Structure
 

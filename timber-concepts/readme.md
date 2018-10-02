@@ -8,4 +8,4 @@ items_prepend:
 ---
 # Timber Concepts
 
-The concepts section describes the various terms and conepts used within Timber and throughout these docs.
+The concepts section describes the various terms and concepts used within Timber and throughout these docs.
