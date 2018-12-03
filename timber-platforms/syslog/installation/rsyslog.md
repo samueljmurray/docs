@@ -53,7 +53,7 @@ limit the messages that are forwarded with the action.
   action(
     type="omfwd"
     protocol="tcp"
-    target="logs.timber-staging.io"
+    target="logs.timber.io"
     port="6514"
     template="TimberFormat"
     TCP_Framing="octet-counted"
