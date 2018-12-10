@@ -8,7 +8,7 @@ related:
 1. *Execute* this shell script on the desired [Amazon Linux](https://aws.amazon.com/amazon-linux-ami/) server to install the [Timber Agent](/platforms/other/timber-agent)
 
     ```sh
-    curl -o /opt/timber-agent.tar.gz https://packages.timber.io/agent/0.6.x/linux-amd64/timber-agent-0.6.x-linux-amd64.tar.gz
+    curl -o /opt/timber-agent.tar.gz https://packages.timber.io/agent/0.9.x/linux-amd64/timber-agent-0.9.x-linux-amd64.tar.gz
     cd /opt
     tar -xzf timber-agent.tar.gz
     rm timber-agent.tar.gz

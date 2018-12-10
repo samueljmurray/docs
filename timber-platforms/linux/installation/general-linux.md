@@ -10,7 +10,7 @@ related:
     For the majority of modern distributions, you can use the following shell script to install the agent on your machine. It assumes your system uses `systemd`. (Don't worry if you don't know what that means!)
 
     ```sh
-    curl -o /opt/timber-agent.tar.gz https://packages.timber.io/agent/0.6.x/linux-amd64/timber-agent-0.6.x-linux-amd64.tar.gz
+    curl -o /opt/timber-agent.tar.gz https://packages.timber.io/agent/0.9.x/linux-amd64/timber-agent-0.9.x-linux-amd64.tar.gz
     cd /opt
     tar -xzf timber-agent.tar.gz
     rm timber-agent.tar.gz
