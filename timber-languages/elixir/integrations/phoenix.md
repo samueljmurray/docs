@@ -34,7 +34,7 @@ The [Timber for Elixir](https://github.com/timberio/timber-ruby) [Phoenix](http:
    ```elixir
    # config/config.exs
    config :my_app, MyApp.Endpoint,
-     instrumenters: [Timber.Integrations.PhoenixInstrumenter]
+     instrumenters: [Timber.Phoenix]
    ```
 
 2. In your `web.ex` file, disable the default `Phoenix.Controller` logging since Timber is now handling this:
