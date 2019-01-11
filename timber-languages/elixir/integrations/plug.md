@@ -41,9 +41,9 @@ The [Timber for Elixir](https://github.com/timberio/timber-ruby) [Phoenix](http:
 
      # ...
 
-   + plug Timber.Integrations.SessionContextPlug
-   + plug Timber.Integrations.HTTPContextPlug
-   + plug Timber.Integrations.EventPlug
+   + plug Timber.Plug.SessionContext
+   + plug Timber.Plug.HTTPContext
+   + plug Timber.Plug.Event
 
      # The Timber should come *directly* before your app's
      # Router plug
